@@ -1298,5 +1298,23 @@ const entries = [
     generos: ["Aventura","RPG","Estrategia"],
     puntuacion: 3,
     fecha: "2026-08-09"
+  },
+  {
+    id: 158,
+    titulo: "Kirby 64: The Crystal Shards",
+    imagen: "assets/img/kirby-64-the-crystal-shards-158.jpg",
+    plataformas: ["n64"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-09"
+  },
+  {
+    id: 159,
+    titulo: "Splatoon",
+    imagen: "assets/img/splatoon-159.jpg",
+    plataformas: ["switch"],
+    generos: ["Acción","Shooter","Multijugador","Online"],
+    puntuacion: 3.5,
+    fecha: "2026-08-09"
   }
 ];
