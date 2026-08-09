@@ -37,7 +37,7 @@ const entries = [
     imagen: "assets/img/league-of-legends-3.jpg",
     plataformas: ["pc"],
     generos: ["Estrategia","MOBA"],
-    top: "top15",
+    top: "top10",
     puntuacion: 0,
     fecha: "2026-08-01"
   },
@@ -47,7 +47,7 @@ const entries = [
     imagen: "assets/img/animal-crossing-new-horizons-4.png",
     plataformas: ["switch","switch2"],
     generos: ["Simulación","Online"],
-    top: "top15",
+    top: "top10",
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -75,7 +75,7 @@ const entries = [
     imagen: "assets/img/pokemon-firered-11.jpg",
     plataformas: ["switch","gba"],
     generos: ["Aventura","RPG"],
-    top: "top15",
+    top: "top10",
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -85,7 +85,7 @@ const entries = [
     imagen: "assets/img/metroid-dread-15.jpg",
     plataformas: ["switch"],
     generos: ["Acción","Aventura"],
-    top: "top15",
+    top: "top10",
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -113,7 +113,7 @@ const entries = [
     imagen: "assets/img/the-legend-of-zelda-breath-of-the-wild-25.jpg",
     plataformas: ["wiiu","switch","switch2"],
     generos: ["Acción","Aventura"],
-    top: "top15",
+    top: "top10",
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -222,7 +222,7 @@ const entries = [
     imagen: "assets/img/no-more-heroes-39.jpg",
     plataformas: ["wii","switch"],
     generos: ["Acción"],
-    top: "top15",
+    top: "top10",
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -332,7 +332,7 @@ const entries = [
     imagen: "assets/img/sonic-adventure-2-battle-51.jpg",
     plataformas: ["gamecube","xbox360","pc"],
     generos: ["Acción","Aventura","Plataformas"],
-    top: "top15",
+    top: "top10",
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -469,7 +469,7 @@ const entries = [
     imagen: "assets/img/super-mario-64-66.jpg",
     plataformas: ["n64"],
     generos: ["Aventura","Plataformas"],
-    top: "top15",
+    top: "top10",
     puntuacion: 4.5,
     fecha: "2026-08-01"
   },
@@ -579,7 +579,7 @@ const entries = [
     imagen: "assets/img/plants-vs-zombies-78.jpg",
     plataformas: ["nds","pc"],
     generos: ["Estrategia"],
-    top: "top15",
+    top: "top10",
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -616,7 +616,7 @@ const entries = [
     imagen: "assets/img/portal-2-82.jpg",
     plataformas: ["switch","xbox360"],
     generos: ["Puzzle"],
-    top: "top15",
+    top: "top10",
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -778,7 +778,7 @@ const entries = [
     imagen: "assets/img/spider-man-100.jpg",
     plataformas: ["pc"],
     generos: ["Acción"],
-    top: "top15",
+    top: "top10",
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -995,7 +995,7 @@ const entries = [
     imagen: "assets/img/batman-arkham-city-124.jpg",
     plataformas: ["xbox360"],
     generos: ["Acción"],
-    top: "top15",
+    top: "top10",
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -1032,7 +1032,7 @@ const entries = [
     imagen: "assets/img/metal-slug-x-128.jpg",
     plataformas: ["switch","pc","arcade"],
     generos: ["Acción","Plataformas","Shooter","Arcade"],
-    top: "top15",
+    top: "top10",
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -1285,7 +1285,7 @@ const entries = [
     imagen: "assets/img/neo-bomberman-156.jpg",
     plataformas: ["arcade"],
     generos: ["Arcade"],
-    top: "top15",
+    top: "top10",
     puntuacion: 4,
     fecha: "2026-08-09"
   }

@@ -607,7 +607,8 @@ main {
 }
 
 .top-badge.top5 { color: #facc15; }
-.top-badge.top15 { color: #3b82f6; }
+.top-badge.top10 { color: #c0c0c0; }
+.top-badge.top20 { color: #cd7f32; }
 
 .card .overlay {
   position: absolute;
@@ -640,7 +641,8 @@ main {
 }
 
 .overlay .overlay-top.top5 { color: #facc15; }
-.overlay .overlay-top.top15 { color: #3b82f6; }
+.overlay .overlay-top.top10 { color: #c0c0c0; }
+.overlay .overlay-top.top20 { color: #cd7f32; }
 
 .overlay .overlay-title {
   font-size: 0.95rem;

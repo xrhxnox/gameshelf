@@ -35,15 +35,17 @@ function genreTagsMarkup(entry) {
   return tags ? `<div class="genre-tags">${tags}</div>` : "";
 }
 
+const TOP_LABELS = { top5: "Top 5", top10: "Top 10", top20: "Top 20" };
+
 function topBadgeMarkup(entry) {
   if (!entry.top) return "";
-  const label = entry.top === "top5" ? "Top 5" : "Top 15";
+  const label = TOP_LABELS[entry.top] || entry.top;
   return `<span class="top-badge ${entry.top}" title="${label}" aria-label="${label}"><i class="fa-solid fa-star"></i></span>`;
 }
 
 function overlayTopMarkup(entry) {
   if (!entry.top) return "";
-  const label = entry.top === "top5" ? "Top 5" : "Top 15";
+  const label = TOP_LABELS[entry.top] || entry.top;
   return `<div class="overlay-top ${entry.top}"><i class="fa-solid fa-star"></i> ${label}</div>`;
 }
 
@@ -122,7 +124,8 @@ function render() {
   }
 
   if (activeFilter === "top") {
-    const topRank = t => t === "top5" ? 0 : 1;
+    const topOrder = ["top5", "top10", "top20"];
+    const topRank = t => topOrder.indexOf(t);
     filtered.sort((a, b) => topRank(a.top) - topRank(b.top));
   }
 
