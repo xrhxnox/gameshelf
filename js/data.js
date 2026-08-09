@@ -7,7 +7,7 @@
 //              en js/utils.js)
 // generos: lista de géneros (ver GAME_GENRES en js/utils.js)
 // puntuacion: número del 0 al 5 (acepta medios puntos, ej. 3.5)
-// top: "top5" | "top15" | ausente si no aplica
+// top: "top5" | "top10" | "top20" | ausente si no aplica
 // imagen: ruta a la carátula (guárdala en assets/img/)
 // fecha: cuándo se publicó la entrada, formato AAAA-MM-DD
 // ============================================================
@@ -616,7 +616,7 @@ const entries = [
     imagen: "assets/img/portal-2-82.jpg",
     plataformas: ["switch","xbox360"],
     generos: ["Puzzle"],
-    top: "top10",
+    top: "top20",
     puntuacion: 5,
     fecha: "2026-08-01"
   },
