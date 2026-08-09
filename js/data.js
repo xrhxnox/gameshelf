@@ -1288,5 +1288,14 @@ const entries = [
     top: "top10",
     puntuacion: 4,
     fecha: "2026-08-09"
+  },
+  {
+    id: 157,
+    titulo: "Pokémon Colosseum",
+    imagen: "assets/img/pokemon-colosseum-157.jpg",
+    plataformas: ["gamecube"],
+    generos: ["Aventura","RPG","Estrategia"],
+    puntuacion: 3,
+    fecha: "2026-08-09"
   }
 ];
