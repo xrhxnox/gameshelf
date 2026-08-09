@@ -1307,5 +1307,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 4,
     fecha: "2026-08-09"
+  },
+  {
+    id: 159,
+    titulo: "Splatoon",
+    imagen: "assets/img/splatoon-159.jpg",
+    plataformas: ["switch"],
+    generos: ["Acción","Shooter","Multijugador","Online"],
+    puntuacion: 3.5,
+    fecha: "2026-08-09"
   }
 ];
