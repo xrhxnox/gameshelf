@@ -194,7 +194,7 @@ const entries = [
     titulo: "Mario Tennis Aces",
     imagen: "assets/img/mario-tennis-aces-36.jpg",
     plataformas: ["switch"],
-    generos: ["Deportes"],
+    generos: ["Deportes","Multijugador"],
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
