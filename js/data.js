@@ -715,7 +715,7 @@ const entries = [
     titulo: "Grand Theft Auto V",
     imagen: "assets/img/grand-theft-auto-v-93.jpg",
     plataformas: ["xbox360","pc"],
-    generos: ["Acción"],
+    generos: ["Acción","Multijugador","Online"],
     puntuacion: 5,
     fecha: "2026-08-01"
   },
