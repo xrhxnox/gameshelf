@@ -545,6 +545,7 @@ const entries = [
     imagen: "assets/img/super-smash-bros-brawl-74.jpg",
     plataformas: ["wii"],
     generos: ["Peleas","Multijugador","Online"],
+    top: "top15",
     puntuacion: 4,
     fecha: "2026-08-01"
   },
