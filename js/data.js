@@ -1336,5 +1336,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 2.5,
     fecha: "2026-08-09"
+  },
+  {
+    id: 162,
+    titulo: "Wario Land: Shake It!",
+    imagen: "assets/img/wario-land-shake-it-162.jpg",
+    plataformas: ["wii"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 3.5,
+    fecha: "2026-08-09"
   }
 ];
