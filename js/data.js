@@ -1354,5 +1354,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 4,
     fecha: "2026-08-09"
+  },
+  {
+    id: 164,
+    titulo: "Star Wars Rogue Squadron II: Rogue Leader",
+    imagen: "assets/img/star-wars-rogue-squadron-ii-rogue-leader-164.jpg",
+    plataformas: ["gamecube"],
+    generos: ["Acción","Arcade"],
+    puntuacion: 4,
+    fecha: "2026-08-09"
   }
 ];
