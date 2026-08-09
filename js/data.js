@@ -1327,5 +1327,14 @@ const entries = [
     generos: ["Aventura","Plataformas","Multijugador"],
     puntuacion: 4,
     fecha: "2026-08-09"
+  },
+  {
+    id: 161,
+    titulo: "Wario World",
+    imagen: "assets/img/wario-world-161.jpg",
+    plataformas: ["gamecube"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 2.5,
+    fecha: "2026-08-09"
   }
 ];
