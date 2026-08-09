@@ -76,7 +76,7 @@ const entries = [
     plataformas: ["switch","gba"],
     generos: ["Aventura","RPG"],
     top: "top15",
-    puntuacion: 3.5,
+    puntuacion: 4,
     fecha: "2026-08-01"
   },
   {
