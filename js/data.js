@@ -1135,7 +1135,7 @@ const entries = [
     titulo: "Mario Power Tennis",
     imagen: "assets/img/mario-power-tennis-139.jpg",
     plataformas: ["gamecube","wii"],
-    generos: ["Deportes"],
+    generos: ["Deportes","Multijugador"],
     puntuacion: 4,
     fecha: "2026-08-01"
   },
