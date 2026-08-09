@@ -175,7 +175,7 @@ const entries = [
     id: 34,
     titulo: "Mario Kart 8 Deluxe",
     imagen: "assets/img/mario-kart-8-deluxe-34.jpg",
-    plataformas: ["wiiu","switch","xbox360"],
+    plataformas: ["wiiu","switch"],
     generos: ["Acción","Carreras","Multijugador","Online"],
     top: "top15",
     puntuacion: 5,
