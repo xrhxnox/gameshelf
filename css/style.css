@@ -272,10 +272,6 @@ body {
   transform: translateZ(0);
 }
 
-.site-logo i {
-  color: var(--accent);
-}
-
 .icon-btn:hover {
   background: var(--surface-hover);
 }
