@@ -1269,5 +1269,14 @@ const entries = [
     generos: ["Acción","Aventura"],
     puntuacion: 4.5,
     fecha: "2026-08-09"
+  },
+  {
+    id: 155,
+    titulo: "Metroid Other M",
+    imagen: "assets/img/metroid-other-m-155.jpg",
+    plataformas: ["wii"],
+    generos: ["Acción","Aventura"],
+    puntuacion: 3.5,
+    fecha: "2026-08-09"
   }
 ];
