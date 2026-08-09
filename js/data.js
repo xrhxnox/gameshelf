@@ -1372,5 +1372,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 4,
     fecha: "2026-08-09"
+  },
+  {
+    id: 166,
+    titulo: "Donkey Kong Country: Tropical Freeze",
+    imagen: "assets/img/donkey-kong-country-tropical-freeze-166.jpg",
+    plataformas: ["wiiu","switch"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-09"
   }
 ];
