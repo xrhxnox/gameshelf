@@ -1034,7 +1034,7 @@ const entries = [
     imagen: "assets/img/metal-slug-x-128.jpg",
     plataformas: ["switch","pc","arcade"],
     generos: ["Acción","Plataformas","Shooter","Arcade"],
-    top: "top10",
+    top: "top20",
     puntuacion: 5,
     fecha: "2026-08-01"
   },
