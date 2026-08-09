@@ -8,7 +8,7 @@ const searchInput = document.getElementById("searchInput");
 const clearSearchBtn = document.getElementById("clearSearchBtn");
 const pagination = document.getElementById("pagination");
 
-const PAGE_SIZE = 16;
+const PAGE_SIZE = 20;
 
 let activeFilter = "todos";
 let activeYear = "todos";
