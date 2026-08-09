@@ -407,6 +407,7 @@ const entries = [
     imagen: "assets/img/hades-59.jpg",
     plataformas: ["switch","pc"],
     generos: ["Acción","Roguelike"],
+    top: "top20",
     puntuacion: 4.5,
     fecha: "2026-08-01"
   },
