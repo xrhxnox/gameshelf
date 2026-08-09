@@ -252,6 +252,8 @@ body {
   width: 52px;
   height: 52px;
   font-size: 1.3rem;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 .site-logo {
@@ -263,6 +265,8 @@ body {
   font-weight: 700;
   letter-spacing: 0.06em;
   color: var(--text);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 .icon-btn:hover {
