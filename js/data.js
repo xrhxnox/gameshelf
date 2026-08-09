@@ -74,7 +74,7 @@ const entries = [
     titulo: "Pokémon FireRed",
     imagen: "assets/img/pokemon-firered-11.jpg",
     plataformas: ["switch","gba"],
-    generos: ["Aventura","RPG","Online"],
+    generos: ["Aventura","RPG","Online","Estrategia"],
     top: "top15",
     puntuacion: 3.5,
     fecha: "2026-08-01"
@@ -94,7 +94,7 @@ const entries = [
     titulo: "Pokémon Violet",
     imagen: "assets/img/pokemon-violet-18.jpg",
     plataformas: ["switch"],
-    generos: ["Aventura","RPG","Online"],
+    generos: ["Aventura","RPG","Online","Estrategia"],
     puntuacion: 2.5,
     fecha: "2026-08-01"
   },
@@ -131,7 +131,7 @@ const entries = [
     titulo: "Pokémon Sword",
     imagen: "assets/img/pokemon-sword-27.jpg",
     plataformas: ["switch"],
-    generos: ["Aventura","RPG","Online"],
+    generos: ["Aventura","RPG","Online","Estrategia"],
     puntuacion: 3,
     fecha: "2026-08-01"
   },
@@ -140,7 +140,7 @@ const entries = [
     titulo: "Pokémon Brilliant Diamond",
     imagen: "assets/img/pokemon-brilliant-diamond-28.jpg",
     plataformas: ["switch"],
-    generos: ["Aventura","RPG","Online"],
+    generos: ["Aventura","RPG","Online","Estrategia"],
     puntuacion: 2,
     fecha: "2026-08-01"
   },
@@ -149,7 +149,7 @@ const entries = [
     titulo: "Pokémon Legends: Arceus",
     imagen: "assets/img/leyendas-pokemon-arceus-29.jpg",
     plataformas: ["switch"],
-    generos: ["Aventura","RPG","Online"],
+    generos: ["Aventura","RPG","Online","Estrategia"],
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -167,7 +167,7 @@ const entries = [
     titulo: "Pokémon Let's Go, Pikachu!",
     imagen: "assets/img/pokemon-let-s-go-pikachu-33.jpg",
     plataformas: ["switch"],
-    generos: ["RPG","Aventura","Online"],
+    generos: ["RPG","Aventura","Online","Estrategia"],
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -387,7 +387,7 @@ const entries = [
     titulo: "Pokémon Black 2",
     imagen: "assets/img/pokemon-black-2-57.jpg",
     plataformas: ["nds"],
-    generos: ["Aventura","RPG","Online"],
+    generos: ["Aventura","RPG","Online","Estrategia"],
     puntuacion: 4.5,
     fecha: "2026-08-01"
   },
@@ -396,7 +396,7 @@ const entries = [
     titulo: "Pokémon Y",
     imagen: "assets/img/pokemon-y-58.jpg",
     plataformas: ["n3ds"],
-    generos: ["Aventura","RPG","Online"],
+    generos: ["Aventura","RPG","Online","Estrategia"],
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -506,7 +506,7 @@ const entries = [
     titulo: "Pokémon Stadium",
     imagen: "assets/img/pokemon-stadium-70.jpg",
     plataformas: ["n64"],
-    generos: ["RPG"],
+    generos: ["RPG","Estrategia"],
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -1104,7 +1104,7 @@ const entries = [
     titulo: "Pokémon Emerald",
     imagen: "assets/img/pokemon-emerald-136.jpg",
     plataformas: ["gba"],
-    generos: ["Aventura","RPG"],
+    generos: ["Aventura","RPG","Estrategia"],
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -1113,7 +1113,7 @@ const entries = [
     titulo: "Pokémon Omega Ruby",
     imagen: "assets/img/pokemon-omega-ruby-137.jpg",
     plataformas: ["n3ds"],
-    generos: ["Aventura","RPG","Online"],
+    generos: ["Aventura","RPG","Online","Estrategia"],
     puntuacion: 4,
     fecha: "2026-08-01"
   },
