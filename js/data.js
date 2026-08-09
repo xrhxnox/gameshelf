@@ -1345,5 +1345,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 3.5,
     fecha: "2026-08-09"
+  },
+  {
+    id: 163,
+    titulo: "Super Mario 3D World",
+    imagen: "assets/img/super-mario-3d-world-163.jpg",
+    plataformas: ["wiiu","switch"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-09"
   }
 ];
