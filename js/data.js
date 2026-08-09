@@ -1260,5 +1260,14 @@ const entries = [
     generos: ["RPG","Estrategia","Multijugador","Online"],
     puntuacion: 4,
     fecha: "2026-08-08"
+  },
+  {
+    id: 154,
+    titulo: "The Simpsons Hit & Run",
+    imagen: "assets/img/the-simpsons-hit-run-154.jpg",
+    plataformas: ["gamecube","ps2"],
+    generos: ["Acción","Aventura"],
+    puntuacion: 4.5,
+    fecha: "2026-08-09"
   }
 ];
