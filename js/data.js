@@ -304,7 +304,7 @@ const entries = [
     titulo: "Mario Strikers: Battle League",
     imagen: "assets/img/mario-strikers-battle-league-48.jpg",
     plataformas: ["switch"],
-    generos: ["Deportes"],
+    generos: ["Deportes","Multijugador","Online"],
     puntuacion: 2.5,
     fecha: "2026-08-01"
   },
