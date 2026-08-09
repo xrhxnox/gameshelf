@@ -1399,5 +1399,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 4.5,
     fecha: "2026-08-09"
+  },
+  {
+    id: 169,
+    titulo: "Conker's Bad Fur Day",
+    imagen: "assets/img/conker-s-bad-fur-day-169.jpg",
+    plataformas: ["n64"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-09"
   }
 ];
