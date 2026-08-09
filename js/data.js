@@ -331,7 +331,7 @@ const entries = [
     id: 51,
     titulo: "Sonic Adventure 2: Battle",
     imagen: "assets/img/sonic-adventure-2-battle-51.jpg",
-    plataformas: ["gamecube","xbox360","pc"],
+    plataformas: ["gamecube","pc"],
     generos: ["Acción","Aventura","Plataformas"],
     top: "top10",
     puntuacion: 4,
