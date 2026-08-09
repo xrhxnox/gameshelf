@@ -779,7 +779,7 @@ const entries = [
     imagen: "assets/img/spider-man-100.jpg",
     plataformas: ["pc"],
     generos: ["Acción"],
-    top: "top10",
+    top: "top20",
     puntuacion: 4,
     fecha: "2026-08-01"
   },
