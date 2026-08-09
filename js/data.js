@@ -889,7 +889,7 @@ const entries = [
     titulo: "Mario Super Sluggers",
     imagen: "assets/img/mario-super-sluggers-112.jpg",
     plataformas: ["wii"],
-    generos: ["Deportes"],
+    generos: ["Deportes","Multijugador"],
     puntuacion: 4,
     fecha: "2026-08-01"
   },
