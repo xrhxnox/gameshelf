@@ -913,7 +913,7 @@ const entries = [
     titulo: "Super Martio Strikers",
     imagen: "assets/img/super-martio-strikers-115.jpg",
     plataformas: ["gamecube"],
-    generos: ["Deportes"],
+    generos: ["Deportes","Multijugador"],
     puntuacion: 4,
     fecha: "2026-08-01"
   },
