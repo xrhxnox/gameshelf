@@ -1278,5 +1278,15 @@ const entries = [
     generos: ["Acción","Aventura"],
     puntuacion: 3.5,
     fecha: "2026-08-09"
+  },
+  {
+    id: 156,
+    titulo: "Neo Bomberman",
+    imagen: "assets/img/neo-bomberman-156.jpg",
+    plataformas: ["arcade"],
+    generos: ["Arcade"],
+    top: "top15",
+    puntuacion: 4,
+    fecha: "2026-08-09"
   }
 ];
