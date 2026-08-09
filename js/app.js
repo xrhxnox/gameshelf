@@ -13,7 +13,7 @@ const PAGE_SIZE = 20;
 let activeFilter = "todos";
 let activeYear = "todos";
 let activeSearch = "";
-let activeSort = "fecha";
+let activeSort = "alpha";
 let currentPage = 1;
 
 function platformTagsMarkup(entry) {
@@ -119,6 +119,8 @@ function render() {
     filtered.sort((a, b) => b.puntuacion - a.puntuacion || (b.fecha || "").localeCompare(a.fecha || ""));
   } else if (activeSort === "rating-asc") {
     filtered.sort((a, b) => a.puntuacion - b.puntuacion || (b.fecha || "").localeCompare(a.fecha || ""));
+  } else if (activeSort === "alpha") {
+    filtered.sort((a, b) => foldAccents(a.titulo.toLowerCase()).localeCompare(foldAccents(b.titulo.toLowerCase())));
   } else {
     filtered.sort((a, b) => (b.fecha || "").localeCompare(a.fecha || ""));
   }
@@ -259,10 +261,8 @@ function renderProfileStats() {
 
   const count = entries.length;
   const avg = entries.reduce((sum, e) => sum + e.puntuacion, 0) / count;
-  const years = entries.map(e => e.fecha ? Number(e.fecha.slice(0, 4)) : null).filter(Boolean);
 
   const parts = [`${count} ${count === 1 ? "juego" : "juegos"}`, `${avg.toFixed(1)} ★ promedio`];
-  if (years.length) parts.push(`desde ${Math.min(...years)}`);
 
   statsEl.innerHTML = `${parts.join(" · ")} <i class="fa-solid fa-circle-info"></i>`;
   statsEl.title = "Las plataformas mostradas son en las que yo lo jugué, no en las que está disponible";
