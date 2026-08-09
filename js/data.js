@@ -858,8 +858,8 @@ const entries = [
     id: 109,
     titulo: "Dragon Ball Z: Budokai Tenkaichi 3",
     imagen: "assets/img/dragon-ball-z-budokai-tenkaichi-3-109.jpg",
-    plataformas: ["wii"],
-    generos: ["Peleas"],
+    plataformas: ["wii","ps2"],
+    generos: ["Peleas","Multijugador"],
     puntuacion: 4,
     fecha: "2026-08-01"
   },
