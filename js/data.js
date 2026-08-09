@@ -85,7 +85,7 @@ const entries = [
     imagen: "assets/img/metroid-dread-15.jpg",
     plataformas: ["switch"],
     generos: ["Acción","Aventura"],
-    top: "top10",
+    top: "top20",
     puntuacion: 5,
     fecha: "2026-08-01"
   },
