@@ -1285,7 +1285,7 @@ const entries = [
     imagen: "assets/img/neo-bomberman-156.jpg",
     plataformas: ["arcade"],
     generos: ["Arcade"],
-    top: "top10",
+    top: "top20",
     puntuacion: 4,
     fecha: "2026-08-09"
   },
