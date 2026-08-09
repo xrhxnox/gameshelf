@@ -1055,7 +1055,7 @@ const entries = [
     imagen: "assets/img/super-paper-mario-130.jpg",
     plataformas: ["wii"],
     generos: ["Aventura","RPG","Plataformas"],
-    puntuacion: 4,
+    puntuacion: 4.5,
     fecha: "2026-08-01"
   },
   {
