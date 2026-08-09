@@ -37,7 +37,7 @@ const entries = [
     imagen: "assets/img/league-of-legends-3.jpg",
     plataformas: ["pc"],
     generos: ["Estrategia","MOBA"],
-    top: "top15",
+    top: "top20",
     puntuacion: 0,
     fecha: "2026-08-01"
   },
