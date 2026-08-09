@@ -1381,5 +1381,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 4,
     fecha: "2026-08-09"
+  },
+  {
+    id: 167,
+    titulo: "Donkey Kong 64",
+    imagen: "assets/img/donkey-kong-64-167.jpg",
+    plataformas: ["n64"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-09"
   }
 ];
