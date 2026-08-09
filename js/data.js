@@ -1318,5 +1318,14 @@ const entries = [
     generos: ["Acción","Shooter","Multijugador","Online"],
     puntuacion: 3.5,
     fecha: "2026-08-09"
+  },
+  {
+    id: 160,
+    titulo: "New Super Mario Bros U Deluxe",
+    imagen: "assets/img/new-super-mario-bros-u-deluxe-160.jpg",
+    plataformas: ["wiiu","switch"],
+    generos: ["Aventura","Plataformas","Multijugador"],
+    puntuacion: 4,
+    fecha: "2026-08-09"
   }
 ];
