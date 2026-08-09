@@ -368,7 +368,7 @@ const entries = [
     titulo: "Pokémon Unite",
     imagen: "assets/img/pokemon-unite-55.jpg",
     plataformas: ["switch","movil"],
-    generos: ["Estrategia","Online"],
+    generos: ["Estrategia","MOBA","Online"],
     puntuacion: 2.5,
     fecha: "2026-08-01"
   },
