@@ -470,7 +470,7 @@ const entries = [
     imagen: "assets/img/super-mario-64-66.jpg",
     plataformas: ["n64"],
     generos: ["Aventura","Plataformas"],
-    top: "top10",
+    top: "top5",
     puntuacion: 4.5,
     fecha: "2026-08-01"
   },
