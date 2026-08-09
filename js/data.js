@@ -46,7 +46,7 @@ const entries = [
     titulo: "Animal Crossing: New Horizons",
     imagen: "assets/img/animal-crossing-new-horizons-4.png",
     plataformas: ["switch","switch2"],
-    generos: ["Simulación"],
+    generos: ["Simulación","Online"],
     top: "top15",
     puntuacion: 5,
     fecha: "2026-08-01"
