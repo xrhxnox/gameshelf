@@ -616,6 +616,7 @@ const entries = [
     imagen: "assets/img/portal-2-82.jpg",
     plataformas: ["switch","xbox360"],
     generos: ["Puzzle"],
+    top: "top15",
     puntuacion: 5,
     fecha: "2026-08-01"
   },
