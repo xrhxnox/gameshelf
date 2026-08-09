@@ -1257,7 +1257,7 @@ const entries = [
     titulo: "Pokémon Ultra Sun",
     imagen: "assets/img/pokemon-ultra-sun-153.jpg",
     plataformas: ["n3ds"],
-    generos: ["RPG","Estrategia","Multijugador"],
+    generos: ["RPG","Estrategia","Multijugador","Online"],
     puntuacion: 4,
     fecha: "2026-08-08"
   }
