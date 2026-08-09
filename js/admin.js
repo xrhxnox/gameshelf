@@ -1,11 +1,11 @@
 const GITHUB_OWNER = "xrhxnox";
-const GITHUB_REPO = "rhxgames";
+const GITHUB_REPO = "gameshelf";
 const GITHUB_BRANCH = "gh-pages";
 const DATA_PATH = "js/data.js";
 const STATUS_PATH = "js/status.js";
 const PROFILE_PATH = "js/profile.js";
 const PROFILE_PHOTO_PATH = "assets/img/web/profile.png";
-const TOKEN_STORAGE_KEY = "rhxgames_gh_pat";
+const TOKEN_STORAGE_KEY = "gameshelf_gh_pat";
 
 const form = document.getElementById("addForm");
 const tokenInput = document.getElementById("token");

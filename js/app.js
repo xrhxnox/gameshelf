@@ -296,7 +296,7 @@ function renderProfile() {
 renderProfile();
 
 const themeToggle = document.getElementById("themeToggle");
-const THEME_KEY = "rhxgames_theme";
+const THEME_KEY = "gameshelf_theme";
 
 function updateThemeIcon() {
   const theme = document.documentElement.getAttribute("data-theme");

@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rick | Games</title>
+  <title>Rick | GameShelf</title>
 
   <script>
     (function() {
-      var saved = localStorage.getItem("rhxgames_theme");
+      var saved = localStorage.getItem("gameshelf_theme");
       var theme = saved || (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
       document.documentElement.setAttribute("data-theme", theme);
     })();
