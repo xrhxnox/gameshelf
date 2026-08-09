@@ -179,6 +179,7 @@ body {
   margin: 8px 0 18px;
   font-size: 0.8rem;
   color: var(--text-dim);
+  cursor: help;
 }
 
 .status-badge {
@@ -349,23 +350,6 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   gap: 18px;
-}
-
-.platform-info {
-  align-self: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 24px;
-  height: 24px;
-  color: var(--text-dim);
-  font-size: 0.9rem;
-  cursor: help;
-}
-
-.platform-info:hover,
-.platform-info:focus-visible {
-  color: var(--text);
 }
 
 .console-filters {
