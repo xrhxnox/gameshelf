@@ -690,7 +690,7 @@ const entries = [
     imagen: "assets/img/mario-party-superstars-90.jpg",
     plataformas: ["switch","xbox360"],
     generos: ["Acción","Party","Multijugador"],
-    top: "top20",
+    top: "top15",
     puntuacion: 4.5,
     fecha: "2026-08-01"
   },
