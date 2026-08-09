@@ -588,7 +588,7 @@ const entries = [
     titulo: "Dragon Ball: Sparking! Zero",
     imagen: "assets/img/dragon-ball-sparking-zero-79.jpg",
     plataformas: ["pc"],
-    generos: ["Acción","Peleas"],
+    generos: ["Peleas","Multijugador","Online"],
     puntuacion: 4,
     fecha: "2026-08-01"
   },
