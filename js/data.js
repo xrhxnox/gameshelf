@@ -75,7 +75,7 @@ const entries = [
     imagen: "assets/img/pokemon-firered-11.jpg",
     plataformas: ["switch","gba"],
     generos: ["Aventura","RPG"],
-    top: "top10",
+    top: "top15",
     puntuacion: 4,
     fecha: "2026-08-01"
   },
