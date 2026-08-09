@@ -7,7 +7,7 @@
 //              en js/utils.js)
 // generos: lista de géneros (ver GAME_GENRES en js/utils.js)
 // puntuacion: número del 0 al 5 (acepta medios puntos, ej. 3.5)
-// top: "top5" | "top10" | "top20" | ausente si no aplica
+// top: "top5" | "top10" | "top15" | "top20" | ausente si no aplica
 // imagen: ruta a la carátula (guárdala en assets/img/)
 // fecha: cuándo se publicó la entrada, formato AAAA-MM-DD
 // ============================================================
@@ -175,9 +175,9 @@ const entries = [
     id: 34,
     titulo: "Mario Kart 8 Deluxe",
     imagen: "assets/img/mario-kart-8-deluxe-34.jpg",
-    plataformas: ["wiiu","switch"],
-    generos: ["Carreras","Multijugador","Online"],
-    top: "top20",
+    plataformas: ["wiiu","switch","xbox360"],
+    generos: ["Acción","Carreras","Multijugador","Online"],
+    top: "top15",
     puntuacion: 5,
     fecha: "2026-08-01"
   },
