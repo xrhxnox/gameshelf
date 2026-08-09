@@ -91,10 +91,12 @@ function renderPagination(totalPages) {
   document.getElementById("prevPageBtn").addEventListener("click", () => {
     currentPage -= 1;
     render();
+    grid.scrollIntoView({ behavior: "smooth", block: "start" });
   });
   document.getElementById("nextPageBtn").addEventListener("click", () => {
     currentPage += 1;
     render();
+    grid.scrollIntoView({ behavior: "smooth", block: "start" });
   });
 }
 
