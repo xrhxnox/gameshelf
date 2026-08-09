@@ -182,6 +182,10 @@ body {
   cursor: help;
 }
 
+.profile-stats i {
+  font-size: 0.7rem;
+}
+
 .status-badge {
   display: inline-flex;
   align-items: center;

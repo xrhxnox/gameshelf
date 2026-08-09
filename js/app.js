@@ -264,7 +264,7 @@ function renderProfileStats() {
   const parts = [`${count} ${count === 1 ? "juego" : "juegos"}`, `${avg.toFixed(1)} ★ promedio`];
   if (years.length) parts.push(`desde ${Math.min(...years)}`);
 
-  statsEl.textContent = parts.join(" · ");
+  statsEl.innerHTML = `${parts.join(" · ")} <i class="fa-solid fa-circle-info"></i>`;
   statsEl.title = "Las plataformas mostradas son en las que yo lo jugué, no en las que está disponible";
   statsEl.hidden = false;
 }
