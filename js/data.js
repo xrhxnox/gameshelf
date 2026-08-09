@@ -1363,5 +1363,14 @@ const entries = [
     generos: ["Acción","Arcade"],
     puntuacion: 4,
     fecha: "2026-08-09"
+  },
+  {
+    id: 165,
+    titulo: "Donkey Kong Country",
+    imagen: "assets/img/donkey-kong-country-165.jpg",
+    plataformas: ["snes"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-09"
   }
 ];
