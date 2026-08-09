@@ -689,7 +689,7 @@ const entries = [
     id: 90,
     titulo: "Mario Party Superstars",
     imagen: "assets/img/mario-party-superstars-90.jpg",
-    plataformas: ["switch","xbox360"],
+    plataformas: ["switch"],
     generos: ["Acción","Party","Multijugador"],
     top: "top15",
     puntuacion: 4.5,
