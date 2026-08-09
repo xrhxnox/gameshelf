@@ -177,6 +177,7 @@ const entries = [
     imagen: "assets/img/mario-kart-8-deluxe-34.jpg",
     plataformas: ["wiiu","switch"],
     generos: ["Carreras","Multijugador","Online"],
+    top: "top20",
     puntuacion: 5,
     fecha: "2026-08-01"
   },
