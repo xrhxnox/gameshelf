@@ -51,6 +51,7 @@ html, body {
 }
 
 body {
+  position: relative;
   animation: fadeIn 1.5s ease;
 }
 
@@ -250,19 +251,17 @@ body {
 }
 
 .theme-toggle-fixed {
-  position: fixed;
+  position: absolute;
   top: 20px;
   right: 20px;
   z-index: 10;
   width: 52px;
   height: 52px;
   font-size: 1.3rem;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
 }
 
 .site-logo {
-  position: fixed;
+  position: absolute;
   top: 20px;
   left: 20px;
   z-index: 10;
@@ -273,8 +272,6 @@ body {
   font-weight: 700;
   letter-spacing: 0.06em;
   color: var(--text);
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
 }
 
 .icon-btn:hover {
