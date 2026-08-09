@@ -628,7 +628,7 @@ const entries = [
     titulo: "New Super Mario Bros Wii",
     imagen: "assets/img/new-super-mario-bros-wii-83.jpg",
     plataformas: ["wii"],
-    generos: ["Aventura","Plataformas"],
+    generos: ["Aventura","Plataformas","Multijugador"],
     puntuacion: 4.5,
     fecha: "2026-08-01"
   },
