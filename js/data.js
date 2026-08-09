@@ -899,6 +899,7 @@ const entries = [
     imagen: "assets/img/mario-party-5-113.jpg",
     plataformas: ["gamecube"],
     generos: ["Party","Multijugador"],
+    top: "top15",
     puntuacion: 4.5,
     fecha: "2026-08-01"
   },
