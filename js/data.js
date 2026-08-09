@@ -74,8 +74,8 @@ const entries = [
     titulo: "Pokémon FireRed",
     imagen: "assets/img/pokemon-firered-11.jpg",
     plataformas: ["switch","gba"],
-    generos: ["Aventura","RPG"],
-    top: "top15",
+    generos: ["Acción","Aventura","RPG","Party","Multijugador"],
+    top: "top10",
     puntuacion: 4,
     fecha: "2026-08-01"
   },
