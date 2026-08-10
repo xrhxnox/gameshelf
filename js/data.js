@@ -1516,5 +1516,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 4,
     fecha: "2026-08-10"
+  },
+  {
+    id: 182,
+    titulo: "Kirby's Adventure",
+    imagen: "assets/img/kirby-s-adventure-182.jpg",
+    plataformas: ["nes"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
   }
 ];
