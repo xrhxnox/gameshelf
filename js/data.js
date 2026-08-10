@@ -1579,5 +1579,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 4,
     fecha: "2026-08-10"
+  },
+  {
+    id: 189,
+    titulo: "Super Mario Bros 2",
+    imagen: "assets/img/super-mario-bros-2-189.jpg",
+    plataformas: ["nes"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 3,
+    fecha: "2026-08-10"
   }
 ];
