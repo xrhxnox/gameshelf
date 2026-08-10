@@ -1561,5 +1561,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 4,
     fecha: "2026-08-10"
+  },
+  {
+    id: 187,
+    titulo: "Portal",
+    imagen: "assets/img/portal-187.jpg",
+    plataformas: ["switch","xbox360"],
+    generos: ["Puzzle"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
   }
 ];
