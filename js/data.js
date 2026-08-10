@@ -1525,5 +1525,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 4,
     fecha: "2026-08-10"
+  },
+  {
+    id: 183,
+    titulo: "Kirby's Dream Land 3",
+    imagen: "assets/img/kirby-s-dream-land-3-183.jpg",
+    plataformas: ["snes"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 3.5,
+    fecha: "2026-08-10"
   }
 ];
