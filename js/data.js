@@ -1507,5 +1507,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 4,
     fecha: "2026-08-10"
+  },
+  {
+    id: 181,
+    titulo: "Yoshi's Island DS",
+    imagen: "assets/img/yoshi-s-island-ds-181.jpg",
+    plataformas: ["nds"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
   }
 ];
