@@ -251,7 +251,7 @@ body {
 }
 
 .theme-toggle-fixed {
-  position: fixed;
+  position: absolute;
   top: 20px;
   right: 20px;
   z-index: 10;
@@ -261,7 +261,7 @@ body {
 }
 
 .site-logo {
-  position: fixed;
+  position: absolute;
   top: 20px;
   left: 20px;
   z-index: 10;
@@ -274,10 +274,12 @@ body {
   color: var(--text);
 }
 
-@media (max-width: 640px) {
+/* Solo se fijan cuando la ventana es lo bastante ancha para que no
+   choquen con el contenido central (main: max-width 1200px). */
+@media (min-width: 1500px) {
   .theme-toggle-fixed,
   .site-logo {
-    position: absolute;
+    position: fixed;
   }
 }
 
