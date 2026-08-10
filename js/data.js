@@ -1606,5 +1606,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 4,
     fecha: "2026-08-10"
+  },
+  {
+    id: 192,
+    titulo: "Super Mario 64 DS",
+    imagen: "assets/img/super-mario-64-ds-192.jpg",
+    plataformas: ["nds"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
   }
 ];
