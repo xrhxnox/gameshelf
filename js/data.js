@@ -1498,5 +1498,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 3.5,
     fecha: "2026-08-10"
+  },
+  {
+    id: 180,
+    titulo: "Super Mario World 2: Yoshi's Island",
+    imagen: "assets/img/super-mario-world-2-yoshi-s-island-180.jpg",
+    plataformas: ["snes"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
   }
 ];
