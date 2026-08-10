@@ -1444,5 +1444,14 @@ const entries = [
     generos: ["Acción","Arcade"],
     puntuacion: 4,
     fecha: "2026-08-10"
+  },
+  {
+    id: 174,
+    titulo: "Burnout Revenge",
+    imagen: "assets/img/burnout-revenge-174.jpg",
+    plataformas: ["ps2"],
+    generos: ["Acción","Carreras"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
   }
 ];
