@@ -1471,5 +1471,14 @@ const entries = [
     generos: ["Acción"],
     puntuacion: 4,
     fecha: "2026-08-10"
+  },
+  {
+    id: 177,
+    titulo: "Kirby's Epic Yarn",
+    imagen: "assets/img/kirby-s-epic-yarn-177.jpg",
+    plataformas: ["switch"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
   }
 ];
