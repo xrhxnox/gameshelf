@@ -1570,5 +1570,14 @@ const entries = [
     generos: ["Puzzle"],
     puntuacion: 4,
     fecha: "2026-08-10"
+  },
+  {
+    id: 188,
+    titulo: "Super Mario Bros",
+    imagen: "assets/img/super-mario-bros-188.jpg",
+    plataformas: ["nes"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
   }
 ];
