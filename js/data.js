@@ -1552,5 +1552,14 @@ const entries = [
     generos: ["Acción","Carreras","Multijugador"],
     puntuacion: 3,
     fecha: "2026-08-10"
+  },
+  {
+    id: 186,
+    titulo: "Donkey Kong Country 2: Diddy's Kong Quest",
+    imagen: "assets/img/donkey-kong-country-2-diddy-s-kong-quest-186.jpg",
+    plataformas: ["snes"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
   }
 ];
