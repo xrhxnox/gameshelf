@@ -1597,5 +1597,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 4.5,
     fecha: "2026-08-10"
+  },
+  {
+    id: 191,
+    titulo: "New Super Mario Bros",
+    imagen: "assets/img/new-super-mario-bros-191.jpg",
+    plataformas: ["nds"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
   }
 ];
