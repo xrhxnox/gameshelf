@@ -1453,5 +1453,14 @@ const entries = [
     generos: ["Acción","Carreras"],
     puntuacion: 4,
     fecha: "2026-08-10"
+  },
+  {
+    id: 175,
+    titulo: "Crash Nitro Kart",
+    imagen: "assets/img/crash-nitro-kart-175.jpg",
+    plataformas: ["ps2"],
+    generos: ["Carreras","Multijugador"],
+    puntuacion: 3.5,
+    fecha: "2026-08-10"
   }
 ];
