@@ -1480,5 +1480,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 4,
     fecha: "2026-08-10"
+  },
+  {
+    id: 178,
+    titulo: "Mario Golf: Toadstool Tour",
+    imagen: "assets/img/mario-golf-toadstool-tour-178.jpg",
+    plataformas: ["gamecube"],
+    generos: ["Deportes","Multijugador"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
   }
 ];
