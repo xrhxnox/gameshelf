@@ -1543,5 +1543,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 4,
     fecha: "2026-08-10"
+  },
+  {
+    id: 185,
+    titulo: "Kirby Air Ride",
+    imagen: "assets/img/kirby-air-ride-185.jpg",
+    plataformas: ["gamecube"],
+    generos: ["Acción","Carreras","Multijugador"],
+    puntuacion: 3,
+    fecha: "2026-08-10"
   }
 ];
