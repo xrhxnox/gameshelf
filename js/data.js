@@ -57,7 +57,7 @@ const entries = [
     imagen: "assets/img/star-fox-7.jpg",
     plataformas: ["switch2"],
     generos: ["Acción","Arcade"],
-    puntuacion: 4,
+    puntuacion: 4.5,
     fecha: "2026-08-01"
   },
   {
@@ -314,8 +314,8 @@ const entries = [
     titulo: "Mario Golf: Super Rush",
     imagen: "assets/img/mario-golf-super-rush-49.jpg",
     plataformas: ["switch"],
-    generos: ["Deportes"],
-    puntuacion: 3,
+    generos: ["Deportes","Multijugador"],
+    puntuacion: 3.5,
     fecha: "2026-08-01"
   },
   {
@@ -796,7 +796,7 @@ const entries = [
   },
   {
     id: 102,
-    titulo: "Grand Theft Auto San Andreas",
+    titulo: "Grand Theft Auto: San Andreas",
     imagen: "assets/img/grand-theft-auto-san-andreas-102.jpg",
     plataformas: ["ps2"],
     generos: ["Acción"],
@@ -1408,5 +1408,212 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 4,
     fecha: "2026-08-09"
+  },
+  {
+    id: 170,
+    titulo: "Mario Tennis",
+    imagen: "assets/img/mario-tennis-170.jpg",
+    plataformas: ["n64"],
+    generos: ["Deportes","Multijugador"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
+  },
+  {
+    id: 171,
+    titulo: "Mario Golf",
+    imagen: "assets/img/mario-golf-171.jpg",
+    plataformas: ["n64"],
+    generos: ["Deportes","Multijugador"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
+  },
+  {
+    id: 172,
+    titulo: "Chamaleon Twist",
+    imagen: "assets/img/chamaleon-twist-172.jpg",
+    plataformas: ["n64"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 3.5,
+    fecha: "2026-08-10"
+  },
+  {
+    id: 173,
+    titulo: "Star Fox 64",
+    imagen: "assets/img/star-fox-64-173.jpg",
+    plataformas: ["n64"],
+    generos: ["Acción","Arcade"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
+  },
+  {
+    id: 174,
+    titulo: "Burnout Revenge",
+    imagen: "assets/img/burnout-revenge-174.jpg",
+    plataformas: ["ps2"],
+    generos: ["Acción","Carreras"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
+  },
+  {
+    id: 175,
+    titulo: "Crash Nitro Kart",
+    imagen: "assets/img/crash-nitro-kart-175.jpg",
+    plataformas: ["ps2"],
+    generos: ["Carreras","Multijugador"],
+    puntuacion: 3,
+    fecha: "2026-08-10"
+  },
+  {
+    id: 176,
+    titulo: "Grand Theft Auto: Vice City",
+    imagen: "assets/img/grand-theft-auto-vice-city-176.jpg",
+    plataformas: ["ps2"],
+    generos: ["Acción"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
+  },
+  {
+    id: 177,
+    titulo: "Kirby's Epic Yarn",
+    imagen: "assets/img/kirby-s-epic-yarn-177.jpg",
+    plataformas: ["wii"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
+  },
+  {
+    id: 178,
+    titulo: "Mario Golf: Toadstool Tour",
+    imagen: "assets/img/mario-golf-toadstool-tour-178.jpg",
+    plataformas: ["gamecube"],
+    generos: ["Deportes","Multijugador"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
+  },
+  {
+    id: 179,
+    titulo: "Epic Mickey",
+    imagen: "assets/img/epic-mickey-179.jpg",
+    plataformas: ["wii"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 3.5,
+    fecha: "2026-08-10"
+  },
+  {
+    id: 180,
+    titulo: "Super Mario World 2: Yoshi's Island",
+    imagen: "assets/img/super-mario-world-2-yoshi-s-island-180.jpg",
+    plataformas: ["snes"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
+  },
+  {
+    id: 181,
+    titulo: "Yoshi's Island DS",
+    imagen: "assets/img/yoshi-s-island-ds-181.jpg",
+    plataformas: ["nds"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
+  },
+  {
+    id: 182,
+    titulo: "Kirby's Adventure",
+    imagen: "assets/img/kirby-s-adventure-182.jpg",
+    plataformas: ["nes"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
+  },
+  {
+    id: 183,
+    titulo: "Kirby's Dream Land 3",
+    imagen: "assets/img/kirby-s-dream-land-3-183.jpg",
+    plataformas: ["snes"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 3.5,
+    fecha: "2026-08-10"
+  },
+  {
+    id: 184,
+    titulo: "Kirby Super Star",
+    imagen: "assets/img/kirby-super-star-184.jpg",
+    plataformas: ["snes"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
+  },
+  {
+    id: 185,
+    titulo: "Kirby Air Ride",
+    imagen: "assets/img/kirby-air-ride-185.jpg",
+    plataformas: ["gamecube"],
+    generos: ["Acción","Carreras","Multijugador"],
+    puntuacion: 3,
+    fecha: "2026-08-10"
+  },
+  {
+    id: 186,
+    titulo: "Donkey Kong Country 2: Diddy's Kong Quest",
+    imagen: "assets/img/donkey-kong-country-2-diddy-s-kong-quest-186.jpg",
+    plataformas: ["snes"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
+  },
+  {
+    id: 187,
+    titulo: "Portal",
+    imagen: "assets/img/portal-187.jpg",
+    plataformas: ["switch","xbox360"],
+    generos: ["Puzzle"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
+  },
+  {
+    id: 188,
+    titulo: "Super Mario Bros",
+    imagen: "assets/img/super-mario-bros-188.jpg",
+    plataformas: ["nes"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
+  },
+  {
+    id: 189,
+    titulo: "Super Mario Bros 2",
+    imagen: "assets/img/super-mario-bros-2-189.jpg",
+    plataformas: ["nes"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 3,
+    fecha: "2026-08-10"
+  },
+  {
+    id: 190,
+    titulo: "Super Mario Bros 3",
+    imagen: "assets/img/super-mario-bros-3-190.jpg",
+    plataformas: ["nes"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4.5,
+    fecha: "2026-08-10"
+  },
+  {
+    id: 191,
+    titulo: "New Super Mario Bros",
+    imagen: "assets/img/new-super-mario-bros-191.jpg",
+    plataformas: ["nds"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
+  },
+  {
+    id: 192,
+    titulo: "Super Mario 64 DS",
+    imagen: "assets/img/super-mario-64-ds-192.jpg",
+    plataformas: ["nds"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
   }
 ];
