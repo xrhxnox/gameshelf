@@ -1588,5 +1588,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 3,
     fecha: "2026-08-10"
+  },
+  {
+    id: 190,
+    titulo: "Super Mario Bros 3",
+    imagen: "assets/img/super-mario-bros-3-190.jpg",
+    plataformas: ["nes"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4.5,
+    fecha: "2026-08-10"
   }
 ];
