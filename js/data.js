@@ -314,8 +314,8 @@ const entries = [
     titulo: "Mario Golf: Super Rush",
     imagen: "assets/img/mario-golf-super-rush-49.jpg",
     plataformas: ["switch"],
-    generos: ["Deportes"],
-    puntuacion: 3,
+    generos: ["Deportes","Multijugador"],
+    puntuacion: 3.5,
     fecha: "2026-08-01"
   },
   {
