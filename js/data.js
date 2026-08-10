@@ -1408,5 +1408,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 4,
     fecha: "2026-08-09"
+  },
+  {
+    id: 170,
+    titulo: "Mario Tennis",
+    imagen: "assets/img/mario-tennis-170.jpg",
+    plataformas: ["n64"],
+    generos: ["Deportes","Multijugador"],
+    puntuacion: 3.5,
+    fecha: "2026-08-10"
   }
 ];
