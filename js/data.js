@@ -57,7 +57,7 @@ const entries = [
     imagen: "assets/img/star-fox-7.jpg",
     plataformas: ["switch2"],
     generos: ["Acción","Arcade"],
-    puntuacion: 4,
+    puntuacion: 4.5,
     fecha: "2026-08-01"
   },
   {
