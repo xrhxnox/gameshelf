@@ -1489,5 +1489,14 @@ const entries = [
     generos: ["Deportes","Multijugador"],
     puntuacion: 4,
     fecha: "2026-08-10"
+  },
+  {
+    id: 179,
+    titulo: "Epic Mickey",
+    imagen: "assets/img/epic-mickey-179.jpg",
+    plataformas: ["wii"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 3.5,
+    fecha: "2026-08-10"
   }
 ];
