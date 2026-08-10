@@ -1,4 +1,4 @@
-# GxmeShelf
+# GXMESHELF
 
 Catálogo personal de videojuegos que voy terminando, con calificación por estrellas (sin reseña escrita).
 
