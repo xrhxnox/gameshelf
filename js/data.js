@@ -1460,7 +1460,7 @@ const entries = [
     imagen: "assets/img/crash-nitro-kart-175.jpg",
     plataformas: ["ps2"],
     generos: ["Carreras","Multijugador"],
-    puntuacion: 3.5,
+    puntuacion: 3,
     fecha: "2026-08-10"
   }
 ];
