@@ -1534,5 +1534,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 3.5,
     fecha: "2026-08-10"
+  },
+  {
+    id: 184,
+    titulo: "Kirby Super Star",
+    imagen: "assets/img/kirby-super-star-184.jpg",
+    plataformas: ["snes"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
   }
 ];
