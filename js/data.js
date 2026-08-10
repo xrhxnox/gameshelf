@@ -796,7 +796,7 @@ const entries = [
   },
   {
     id: 102,
-    titulo: "Grand Theft Auto San Andreas",
+    titulo: "Grand Theft Auto: San Andreas",
     imagen: "assets/img/grand-theft-auto-san-andreas-102.jpg",
     plataformas: ["ps2"],
     generos: ["Acción"],
