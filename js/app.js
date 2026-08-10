@@ -6,6 +6,7 @@ const yearSelect = document.getElementById("year");
 const sortSelect = document.getElementById("sortSelect");
 const searchInput = document.getElementById("searchInput");
 const clearSearchBtn = document.getElementById("clearSearchBtn");
+const searchBar = document.querySelector(".search-bar");
 const pagination = document.getElementById("pagination");
 
 const PAGE_SIZE = 20;
@@ -91,12 +92,12 @@ function renderPagination(totalPages) {
   document.getElementById("prevPageBtn").addEventListener("click", () => {
     currentPage -= 1;
     render();
-    grid.scrollIntoView({ behavior: "smooth", block: "start" });
+    searchBar.scrollIntoView({ behavior: "smooth", block: "start" });
   });
   document.getElementById("nextPageBtn").addEventListener("click", () => {
     currentPage += 1;
     render();
-    grid.scrollIntoView({ behavior: "smooth", block: "start" });
+    searchBar.scrollIntoView({ behavior: "smooth", block: "start" });
   });
 }
 

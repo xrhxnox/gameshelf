@@ -251,7 +251,7 @@ body {
 }
 
 .theme-toggle-fixed {
-  position: absolute;
+  position: fixed;
   top: 20px;
   right: 20px;
   z-index: 10;
@@ -261,7 +261,7 @@ body {
 }
 
 .site-logo {
-  position: absolute;
+  position: fixed;
   top: 20px;
   left: 20px;
   z-index: 10;
@@ -272,6 +272,13 @@ body {
   font-weight: 700;
   letter-spacing: 0.06em;
   color: var(--text);
+}
+
+@media (max-width: 640px) {
+  .theme-toggle-fixed,
+  .site-logo {
+    position: absolute;
+  }
 }
 
 .icon-btn:hover {
