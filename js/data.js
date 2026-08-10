@@ -1415,7 +1415,7 @@ const entries = [
     imagen: "assets/img/mario-tennis-170.jpg",
     plataformas: ["n64"],
     generos: ["Deportes","Multijugador"],
-    puntuacion: 3.5,
+    puntuacion: 4,
     fecha: "2026-08-10"
   },
   {
