@@ -1435,5 +1435,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 3.5,
     fecha: "2026-08-10"
+  },
+  {
+    id: 173,
+    titulo: "Star Fox 64",
+    imagen: "assets/img/star-fox-64-173.jpg",
+    plataformas: ["n64"],
+    generos: ["Acción","Arcade"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
   }
 ];
