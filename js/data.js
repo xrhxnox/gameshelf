@@ -1417,5 +1417,14 @@ const entries = [
     generos: ["Deportes","Multijugador"],
     puntuacion: 3.5,
     fecha: "2026-08-10"
+  },
+  {
+    id: 171,
+    titulo: "Mario Golf",
+    imagen: "assets/img/mario-golf-171.jpg",
+    plataformas: ["n64"],
+    generos: ["Deportes","Multijugador"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
   }
 ];
