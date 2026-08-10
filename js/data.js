@@ -1426,5 +1426,14 @@ const entries = [
     generos: ["Deportes","Multijugador"],
     puntuacion: 4,
     fecha: "2026-08-10"
+  },
+  {
+    id: 172,
+    titulo: "Chamaleon Twist",
+    imagen: "assets/img/chamaleon-twist-172.jpg",
+    plataformas: ["n64"],
+    generos: ["Aventura","Plataformas"],
+    puntuacion: 3,
+    fecha: "2026-08-10"
   }
 ];
