@@ -1433,7 +1433,7 @@ const entries = [
     imagen: "assets/img/chamaleon-twist-172.jpg",
     plataformas: ["n64"],
     generos: ["Aventura","Plataformas"],
-    puntuacion: 3,
+    puntuacion: 3.5,
     fecha: "2026-08-10"
   }
 ];
