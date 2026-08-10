@@ -1462,5 +1462,14 @@ const entries = [
     generos: ["Carreras","Multijugador"],
     puntuacion: 3,
     fecha: "2026-08-10"
+  },
+  {
+    id: 176,
+    titulo: "Grand Theft Auto: Vice City",
+    imagen: "assets/img/grand-theft-auto-vice-city-176.jpg",
+    plataformas: ["ps2"],
+    generos: ["Acción"],
+    puntuacion: 4,
+    fecha: "2026-08-10"
   }
 ];
