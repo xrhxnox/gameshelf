@@ -1624,5 +1624,14 @@ const entries = [
     generos: ["Acción"],
     puntuacion: 4,
     fecha: "2026-08-11"
+  },
+  {
+    id: 194,
+    titulo: "Grand Theft Auto IV",
+    imagen: "assets/img/grand-theft-auto-iv-194.jpg",
+    plataformas: ["xbox360"],
+    generos: ["Acción"],
+    puntuacion: 4,
+    fecha: "2026-08-11"
   }
 ];
