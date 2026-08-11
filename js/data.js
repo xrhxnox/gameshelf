@@ -176,7 +176,7 @@ const entries = [
     titulo: "Mario Kart 8 Deluxe",
     imagen: "assets/img/mario-kart-8-deluxe-34.jpg",
     plataformas: ["wiiu","switch"],
-    generos: ["Acción","Carreras","Multijugador","Online"],
+    generos: ["Carreras","Multijugador","Online"],
     top: "top15",
     puntuacion: 5,
     fecha: "2026-08-01"
@@ -1615,5 +1615,14 @@ const entries = [
     generos: ["Aventura","Plataformas"],
     puntuacion: 4,
     fecha: "2026-08-10"
+  },
+  {
+    id: 193,
+    titulo: "The Lord of the Rings: The Two Towers",
+    imagen: "assets/img/the-lord-of-the-rings-the-two-towers-193.jpg",
+    plataformas: ["gamecube"],
+    generos: ["Acción"],
+    puntuacion: 4,
+    fecha: "2026-08-11"
   }
 ];
