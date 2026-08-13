@@ -79,25 +79,47 @@ function populateYears() {
   yearSelect.innerHTML = `<option value="todos">Todos</option>` + years.map(y => `<option value="${y}">${y}</option>`).join("");
 }
 
+// Devuelve los números de página a mostrar, con "..." donde se omiten.
+// Siempre incluye la primera, la última y las vecinas de la actual.
+function pageNumbers(totalPages) {
+  if (totalPages <= 7) {
+    return Array.from({ length: totalPages }, (_, i) => i + 1);
+  }
+  const pages = [1];
+  const start = Math.max(2, currentPage - 1);
+  const end = Math.min(totalPages - 1, currentPage + 1);
+  if (start > 2) pages.push("...");
+  for (let i = start; i <= end; i++) pages.push(i);
+  if (end < totalPages - 1) pages.push("...");
+  pages.push(totalPages);
+  return pages;
+}
+
+function goToPage(page) {
+  currentPage = page;
+  render();
+  sectionDivider.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
 function renderPagination(totalPages) {
   if (totalPages <= 1) {
     pagination.innerHTML = "";
     return;
   }
+  const numbers = pageNumbers(totalPages).map(p =>
+    p === "..."
+      ? `<span class="page-ellipsis">...</span>`
+      : `<button type="button" class="page-num${p === currentPage ? " active" : ""}" data-page="${p}"${p === currentPage ? ' aria-current="page"' : ""}>${p}</button>`
+  ).join("");
+
   pagination.innerHTML = `
-    <button type="button" id="prevPageBtn" ${currentPage === 1 ? "disabled" : ""} aria-label="Página anterior"><i class="fa-solid fa-chevron-left"></i></button>
-    <span class="page-label">Página ${currentPage} de ${totalPages}</span>
-    <button type="button" id="nextPageBtn" ${currentPage === totalPages ? "disabled" : ""} aria-label="Página siguiente"><i class="fa-solid fa-chevron-right"></i></button>
+    <button type="button" data-page="${currentPage - 1}" ${currentPage === 1 ? "disabled" : ""} aria-label="Página anterior"><i class="fa-solid fa-chevron-left"></i></button>
+    ${numbers}
+    <button type="button" data-page="${currentPage + 1}" ${currentPage === totalPages ? "disabled" : ""} aria-label="Página siguiente"><i class="fa-solid fa-chevron-right"></i></button>
   `;
-  document.getElementById("prevPageBtn").addEventListener("click", () => {
-    currentPage -= 1;
-    render();
-    sectionDivider.scrollIntoView({ behavior: "smooth", block: "start" });
-  });
-  document.getElementById("nextPageBtn").addEventListener("click", () => {
-    currentPage += 1;
-    render();
-    sectionDivider.scrollIntoView({ behavior: "smooth", block: "start" });
+
+  pagination.querySelectorAll("[data-page]").forEach(btn => {
+    btn.addEventListener("click", () => goToPage(Number(btn.dataset.page)));
   });
 }
 

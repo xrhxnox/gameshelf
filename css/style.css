@@ -515,7 +515,8 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
+  flex-wrap: wrap;
+  gap: 8px;
   margin-top: 36px;
 }
 
@@ -540,9 +541,17 @@ main {
   cursor: default;
 }
 
-.pagination .page-label {
+.pagination .page-num.active {
+  background: var(--text);
+  color: var(--bg);
+  font-weight: 700;
+}
+
+.pagination .page-ellipsis {
   color: var(--text-dim);
   font-size: 0.85rem;
+  width: 20px;
+  text-align: center;
 }
 
 .card {
