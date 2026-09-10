@@ -646,6 +646,11 @@ main {
   gap: 4px;
 }
 
+/* Géneros ocultos por ahora; quitar esta regla para volver a mostrarlos */
+.card .genre-tags {
+  display: none;
+}
+
 .genre-tags {
   position: absolute;
   top: 10px;
