@@ -52,7 +52,7 @@ function overlayTopMarkup(entry) {
 }
 
 function cardMarkup(entry) {
-  const year = entry.fecha ? entry.fecha.slice(0, 4) : "";
+  const year = entry.lanzamiento || "";
   const fechaLegible = entry.fecha
     ? new Date(entry.fecha + "T00:00:00").toLocaleDateString("es-MX", { day: "numeric", month: "short", year: "numeric" })
     : "";
@@ -77,7 +77,7 @@ function cardMarkup(entry) {
 }
 
 function populateYears() {
-  const years = [...new Set(entries.map(e => e.fecha ? e.fecha.slice(0, 4) : null).filter(Boolean))].sort((a, b) => b - a);
+  const years = [...new Set(entries.map(e => e.lanzamiento).filter(Boolean))].sort((a, b) => b - a);
   yearSelect.innerHTML = `<option value="todos">Todos</option>` + years.map(y => `<option value="${y}">${y}</option>`).join("");
 }
 
@@ -138,17 +138,24 @@ function matchesFilter(entry, filter, consoleKey) {
 function render() {
   const filtered = entries.filter(e => {
     const matchFilter = matchesFilter(e, activeFilter, activeConsole);
-    const matchYear = activeYear === "todos" || (e.fecha && e.fecha.slice(0, 4) === activeYear);
+    const matchYear = activeYear === "todos" || String(e.lanzamiento) === activeYear;
     const matchSearch = !activeSearch || foldAccents(e.titulo.toLowerCase()).includes(activeSearch);
     return matchFilter && matchYear && matchSearch;
   });
+
+  const byTitle = (a, b) => foldAccents(a.titulo.toLowerCase()).localeCompare(foldAccents(b.titulo.toLowerCase()));
 
   if (activeSort === "rating") {
     filtered.sort((a, b) => b.puntuacion - a.puntuacion || (b.fecha || "").localeCompare(a.fecha || ""));
   } else if (activeSort === "rating-asc") {
     filtered.sort((a, b) => a.puntuacion - b.puntuacion || (b.fecha || "").localeCompare(a.fecha || ""));
   } else if (activeSort === "alpha") {
-    filtered.sort((a, b) => foldAccents(a.titulo.toLowerCase()).localeCompare(foldAccents(b.titulo.toLowerCase())));
+    filtered.sort(byTitle);
+  } else if (activeSort === "lanzamiento") {
+    // Los juegos sin año quedan al final en ambos sentidos
+    filtered.sort((a, b) => (b.lanzamiento || 0) - (a.lanzamiento || 0) || byTitle(a, b));
+  } else if (activeSort === "lanzamiento-asc") {
+    filtered.sort((a, b) => (a.lanzamiento || 9999) - (b.lanzamiento || 9999) || byTitle(a, b));
   } else {
     filtered.sort((a, b) => (b.fecha || "").localeCompare(a.fecha || ""));
   }
