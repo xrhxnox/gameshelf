@@ -25,7 +25,7 @@
   --overlay-text: #ededed;
   --overlay-text-dim: #8a8a8a;
   --todos-accent: #ffffff;
-  --live: #ededed;
+  --live: #3b82f6;
   --tag-bg: rgba(10, 10, 10, 0.82);
 
   /* Fondo arcade: retícula de puntos + luz suave arriba + scanlines */
@@ -46,7 +46,7 @@
   --accent: #333333;
   --photo-border: rgba(0, 0, 0, 0.22);
   --todos-accent: #141414;
-  --live: #141414;
+  --live: #2563eb;
   --bg-dots: radial-gradient(rgba(0, 0, 0, 0.09) 1px, transparent 1.5px);
   --bg-glow: radial-gradient(70% 480px at 50% 0%, rgba(255, 255, 255, 0.9), transparent 70%);
   --scanline: rgba(0, 0, 0, 0.022);
@@ -235,7 +235,7 @@ body::after {
   height: 7px;
   border-radius: 50%;
   background: var(--live);
-  box-shadow: 0 0 8px var(--glow);
+  box-shadow: 0 0 8px color-mix(in srgb, var(--live) 70%, transparent);
   animation: statusPulse 1.8s ease-in-out infinite;
   flex-shrink: 0;
 }
@@ -300,10 +300,10 @@ body::after {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-family: var(--font-mono);
-  font-size: 0.95rem;
+  font-family: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  font-size: 1rem;
   font-weight: 700;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   color: var(--text);
   text-shadow: 0 0 12px var(--glow);
 }
