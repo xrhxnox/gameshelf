@@ -12,6 +12,7 @@ const pagination = document.getElementById("pagination");
 const PAGE_SIZE = 20;
 
 let activeFilter = "todos";
+let activeConsole = null;
 let activeYear = "todos";
 let activeSearch = "";
 let activeSort = "alpha";
@@ -123,18 +124,19 @@ function renderPagination(totalPages) {
   });
 }
 
-function matchesFilter(entry, filter) {
+// La consola va aparte de la marca porque algunas claves coinciden
+// (la consola "xbox" dentro del grupo "xbox").
+function matchesFilter(entry, filter, consoleKey) {
+  const plats = entry.plataformas || [];
+  if (consoleKey) return plats.includes(consoleKey);
   if (filter === "todos") return true;
   if (filter === "top") return !!entry.top;
-  const plats = entry.plataformas || [];
-  if (plats.includes(filter)) return true;
-  const groups = plats.map(p => PLATFORM_GROUP_OF[p]);
-  return groups.includes(filter);
+  return plats.some(p => PLATFORM_GROUP_OF[p] === filter);
 }
 
 function render() {
   const filtered = entries.filter(e => {
-    const matchFilter = matchesFilter(e, activeFilter);
+    const matchFilter = matchesFilter(e, activeFilter, activeConsole);
     const matchYear = activeYear === "todos" || (e.fecha && e.fecha.slice(0, 4) === activeYear);
     const matchSearch = !activeSearch || foldAccents(e.titulo.toLowerCase()).includes(activeSearch);
     return matchFilter && matchYear && matchSearch;
@@ -166,11 +168,9 @@ function render() {
 }
 
 function getDisplayBrand() {
-  const brand = PLATFORM_GROUPS[activeFilter] ? activeFilter : PLATFORM_GROUP_OF[activeFilter];
-  if (!brand) return null;
-  const group = PLATFORM_GROUPS[brand];
+  const group = PLATFORM_GROUPS[activeFilter];
   if (!group || Object.keys(group.items).length <= 1) return null;
-  return brand;
+  return activeFilter;
 }
 
 function updateConsoleRow() {
@@ -186,23 +186,27 @@ function updateConsoleRow() {
   consoleFilters.innerHTML = keys.map(key => {
     const label = PLATFORM_LABELS[key] || key;
     const color = PLATFORM_COLORS[key] || "#9aa1ac";
-    const isActive = key === activeFilter ? " active" : "";
-    return `<button class="console-filter-btn${isActive}" data-filter="${key}" style="--platform-color:${color}">${label}</button>`;
+    const isActive = key === activeConsole ? " active" : "";
+    return `<button class="console-filter-btn${isActive}" data-console="${key}" style="--platform-color:${color}">${label}</button>`;
   }).join("");
   consoleFilters.hidden = false;
 }
 
 function updateFilterActiveStates() {
-  const brand = getDisplayBrand();
   document.querySelectorAll(".filter-btn").forEach(b => {
-    b.classList.toggle("active", b.dataset.filter === activeFilter || (brand !== null && b.dataset.filter === brand));
+    b.classList.toggle("active", b.dataset.filter === activeFilter);
   });
 }
 
 controls.addEventListener("click", (event) => {
-  const btn = event.target.closest("[data-filter]");
+  const btn = event.target.closest("[data-filter], [data-console]");
   if (!btn) return;
-  activeFilter = btn.dataset.filter;
+  if (btn.dataset.console) {
+    activeConsole = btn.dataset.console;
+  } else {
+    activeFilter = btn.dataset.filter;
+    activeConsole = null;
+  }
   updateFilterActiveStates();
   updateConsoleRow();
   currentPage = 1;
