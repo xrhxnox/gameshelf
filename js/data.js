@@ -8,6 +8,7 @@
 // generos: lista de géneros (ver GAME_GENRES en js/utils.js)
 // puntuacion: número del 0 al 5 (acepta medios puntos, ej. 3.5)
 // top: "top5" | "top10" | "top15" | "top20" | ausente si no aplica
+// lanzamiento: año en que salió el juego (AAAA)
 // imagen: ruta a la carátula (guárdala en assets/img/)
 // fecha: cuándo se publicó la entrada, formato AAAA-MM-DD
 // ============================================================
@@ -19,6 +20,7 @@ const entries = [
     imagen: "assets/img/pokemon-champions-1.jpg",
     plataformas: ["switch","switch2","movil"],
     generos: ["Estrategia","Online"],
+    lanzamiento: 2026,
     puntuacion: 2.5,
     fecha: "2026-08-01"
   },
@@ -28,6 +30,7 @@ const entries = [
     imagen: "assets/img/pokemon-tcg-pocket-2.jpg",
     plataformas: ["movil"],
     generos: ["Estrategia","Online"],
+    lanzamiento: 2024,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -38,6 +41,7 @@ const entries = [
     plataformas: ["pc"],
     generos: ["Estrategia","MOBA"],
     top: "top20",
+    lanzamiento: 2009,
     puntuacion: 0,
     fecha: "2026-08-01"
   },
@@ -48,6 +52,7 @@ const entries = [
     plataformas: ["switch","switch2"],
     generos: ["Simulación","Online"],
     top: "top10",
+    lanzamiento: 2020,
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -57,6 +62,7 @@ const entries = [
     imagen: "assets/img/star-fox-7.jpg",
     plataformas: ["switch2"],
     generos: ["Acción","Arcade"],
+    lanzamiento: 2026,
     puntuacion: 4.5,
     fecha: "2026-08-01"
   },
@@ -66,6 +72,7 @@ const entries = [
     imagen: "assets/img/pikmin-4-10.jpg",
     plataformas: ["switch"],
     generos: ["Estrategia","Puzzle"],
+    lanzamiento: 2023,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -76,6 +83,7 @@ const entries = [
     plataformas: ["switch","gba"],
     generos: ["Acción","Aventura","RPG","Party","Multijugador"],
     top: "top10",
+    lanzamiento: 2004,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -86,6 +94,7 @@ const entries = [
     plataformas: ["switch"],
     generos: ["Acción","Aventura"],
     top: "top15",
+    lanzamiento: 2021,
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -95,6 +104,7 @@ const entries = [
     imagen: "assets/img/pokemon-violet-18.jpg",
     plataformas: ["switch"],
     generos: ["Aventura","RPG","Online","Estrategia"],
+    lanzamiento: 2022,
     puntuacion: 2.5,
     fecha: "2026-08-01"
   },
@@ -104,6 +114,7 @@ const entries = [
     imagen: "assets/img/pokemon-legends-za-19.jpg",
     plataformas: ["switch","switch2"],
     generos: ["Aventura","RPG","Estrategia","Online"],
+    lanzamiento: 2025,
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -114,6 +125,7 @@ const entries = [
     plataformas: ["wiiu","switch","switch2"],
     generos: ["Acción","Aventura"],
     top: "top5",
+    lanzamiento: 2017,
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -123,6 +135,7 @@ const entries = [
     imagen: "assets/img/donkey-kong-bananza-26.jpg",
     plataformas: ["switch2"],
     generos: ["Plataformas","Aventura"],
+    lanzamiento: 2025,
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -132,6 +145,7 @@ const entries = [
     imagen: "assets/img/pokemon-sword-27.jpg",
     plataformas: ["switch"],
     generos: ["Aventura","RPG","Online","Estrategia"],
+    lanzamiento: 2019,
     puntuacion: 3,
     fecha: "2026-08-01"
   },
@@ -141,6 +155,7 @@ const entries = [
     imagen: "assets/img/pokemon-brilliant-diamond-28.jpg",
     plataformas: ["switch"],
     generos: ["Aventura","RPG","Online","Estrategia"],
+    lanzamiento: 2021,
     puntuacion: 2,
     fecha: "2026-08-01"
   },
@@ -150,6 +165,7 @@ const entries = [
     imagen: "assets/img/leyendas-pokemon-arceus-29.jpg",
     plataformas: ["switch"],
     generos: ["Aventura","RPG","Estrategia"],
+    lanzamiento: 2022,
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -159,6 +175,7 @@ const entries = [
     imagen: "assets/img/fire-emblem-engange-32.jpg",
     plataformas: ["switch"],
     generos: ["Estrategia","RPG"],
+    lanzamiento: 2023,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -168,6 +185,7 @@ const entries = [
     imagen: "assets/img/pokemon-let-s-go-pikachu-33.jpg",
     plataformas: ["switch"],
     generos: ["RPG","Aventura","Online","Estrategia"],
+    lanzamiento: 2018,
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -178,6 +196,7 @@ const entries = [
     plataformas: ["wiiu","switch"],
     generos: ["Carreras","Multijugador","Online"],
     top: "top15",
+    lanzamiento: 2014,
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -187,6 +206,7 @@ const entries = [
     imagen: "assets/img/super-mario-odyssey-35.jpg",
     plataformas: ["switch"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 2017,
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -196,6 +216,7 @@ const entries = [
     imagen: "assets/img/mario-tennis-aces-36.jpg",
     plataformas: ["switch"],
     generos: ["Deportes","Multijugador","Online"],
+    lanzamiento: 2018,
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -205,6 +226,7 @@ const entries = [
     imagen: "assets/img/travis-strikes-again-no-more-heroes-37.jpg",
     plataformas: ["switch"],
     generos: ["Acción"],
+    lanzamiento: 2019,
     puntuacion: 2.5,
     fecha: "2026-08-01"
   },
@@ -214,6 +236,7 @@ const entries = [
     imagen: "assets/img/paper-mario-the-origami-king-38.jpg",
     plataformas: ["switch"],
     generos: ["Aventura","RPG"],
+    lanzamiento: 2020,
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -224,6 +247,7 @@ const entries = [
     plataformas: ["wii","switch"],
     generos: ["Acción"],
     top: "top10",
+    lanzamiento: 2007,
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -233,6 +257,7 @@ const entries = [
     imagen: "assets/img/no-more-heroes-2-desperate-struggle-40.jpg",
     plataformas: ["wii","switch"],
     generos: ["Acción"],
+    lanzamiento: 2010,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -242,6 +267,7 @@ const entries = [
     imagen: "assets/img/super-mario-rpg-41.jpg",
     plataformas: ["snes","switch"],
     generos: ["Aventura","RPG"],
+    lanzamiento: 1996,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -251,6 +277,7 @@ const entries = [
     imagen: "assets/img/super-mario-galaxy-42.jpg",
     plataformas: ["wii","switch"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 2007,
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -260,6 +287,7 @@ const entries = [
     imagen: "assets/img/super-mario-galaxy-2-43.jpg",
     plataformas: ["wii","switch"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 2010,
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -270,6 +298,7 @@ const entries = [
     plataformas: ["gamecube","switch"],
     generos: ["Aventura","RPG","Estrategia"],
     top: "top5",
+    lanzamiento: 2004,
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -279,6 +308,7 @@ const entries = [
     imagen: "assets/img/super-mario-3d-all-stars-45.jpg",
     plataformas: ["switch"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 2020,
     puntuacion: 3,
     fecha: "2026-08-01"
   },
@@ -288,6 +318,7 @@ const entries = [
     imagen: "assets/img/no-more-heroes-iii-46.jpg",
     plataformas: ["switch","pc"],
     generos: ["Acción"],
+    lanzamiento: 2021,
     puntuacion: 2.5,
     fecha: "2026-08-01"
   },
@@ -297,6 +328,7 @@ const entries = [
     imagen: "assets/img/skate-47.jpg",
     plataformas: ["pc"],
     generos: ["Deportes"],
+    lanzamiento: 2025,
     puntuacion: 3,
     fecha: "2026-08-01"
   },
@@ -306,6 +338,7 @@ const entries = [
     imagen: "assets/img/mario-strikers-battle-league-48.jpg",
     plataformas: ["switch"],
     generos: ["Deportes","Multijugador","Online"],
+    lanzamiento: 2022,
     puntuacion: 2.5,
     fecha: "2026-08-01"
   },
@@ -315,6 +348,7 @@ const entries = [
     imagen: "assets/img/mario-golf-super-rush-49.jpg",
     plataformas: ["switch"],
     generos: ["Deportes","Multijugador"],
+    lanzamiento: 2021,
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -324,6 +358,7 @@ const entries = [
     imagen: "assets/img/mario-kart-world-50.jpg",
     plataformas: ["switch2"],
     generos: ["Carreras","Multijugador","Online"],
+    lanzamiento: 2025,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -334,6 +369,7 @@ const entries = [
     plataformas: ["gamecube","pc"],
     generos: ["Acción","Aventura","Plataformas"],
     top: "top10",
+    lanzamiento: 2001,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -343,6 +379,7 @@ const entries = [
     imagen: "assets/img/monster-hunter-rise-52.jpg",
     plataformas: ["switch","pc"],
     generos: ["Acción","Aventura","RPG"],
+    lanzamiento: 2021,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -352,6 +389,7 @@ const entries = [
     imagen: "assets/img/splatoon-3-53.jpg",
     plataformas: ["switch2"],
     generos: ["Acción","Aventura","Shooter"],
+    lanzamiento: 2022,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -361,6 +399,7 @@ const entries = [
     imagen: "assets/img/super-mario-bros-wonder-54.jpg",
     plataformas: ["switch","switch2"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 2023,
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -370,6 +409,7 @@ const entries = [
     imagen: "assets/img/pokemon-unite-55.jpg",
     plataformas: ["switch","movil"],
     generos: ["Estrategia","MOBA","Online"],
+    lanzamiento: 2021,
     puntuacion: 2.5,
     fecha: "2026-08-01"
   },
@@ -380,6 +420,7 @@ const entries = [
     plataformas: ["nds"],
     generos: ["Aventura","RPG","Estrategia","Online"],
     top: "top5",
+    lanzamiento: 2009,
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -389,6 +430,7 @@ const entries = [
     imagen: "assets/img/pokemon-black-2-57.jpg",
     plataformas: ["nds"],
     generos: ["Aventura","RPG","Online","Estrategia"],
+    lanzamiento: 2012,
     puntuacion: 4.5,
     fecha: "2026-08-01"
   },
@@ -398,6 +440,7 @@ const entries = [
     imagen: "assets/img/pokemon-y-58.jpg",
     plataformas: ["n3ds"],
     generos: ["Aventura","RPG","Online","Estrategia"],
+    lanzamiento: 2013,
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -408,6 +451,7 @@ const entries = [
     plataformas: ["switch","pc"],
     generos: ["Acción","Roguelike"],
     top: "top20",
+    lanzamiento: 2020,
     puntuacion: 4.5,
     fecha: "2026-08-01"
   },
@@ -417,6 +461,7 @@ const entries = [
     imagen: "assets/img/hollow-knight-60.jpg",
     plataformas: ["switch","switch2","pc"],
     generos: ["Acción","Aventura","Indie"],
+    lanzamiento: 2017,
     puntuacion: 4.5,
     fecha: "2026-08-01"
   },
@@ -426,6 +471,7 @@ const entries = [
     imagen: "assets/img/kirby-and-the-forgotten-land-61.jpg",
     plataformas: ["switch","switch2"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 2022,
     puntuacion: 4.5,
     fecha: "2026-08-01"
   },
@@ -435,6 +481,7 @@ const entries = [
     imagen: "assets/img/hyrule-warriors-age-of-calamity-62.jpg",
     plataformas: ["switch"],
     generos: ["Acción","RPG"],
+    lanzamiento: 2020,
     puntuacion: 3,
     fecha: "2026-08-01"
   },
@@ -444,6 +491,7 @@ const entries = [
     imagen: "assets/img/mario-vs-donkey-kong-63.jpg",
     plataformas: ["switch","gba"],
     generos: ["Estrategia","Puzzle"],
+    lanzamiento: 2004,
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -453,6 +501,7 @@ const entries = [
     imagen: "assets/img/super-mario-party-jamboree-64.jpg",
     plataformas: ["switch","switch2"],
     generos: ["Party","Multijugador"],
+    lanzamiento: 2024,
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -462,6 +511,7 @@ const entries = [
     imagen: "assets/img/super-mario-sunshine-65.jpg",
     plataformas: ["gamecube"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 2002,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -472,6 +522,7 @@ const entries = [
     plataformas: ["n64"],
     generos: ["Aventura","Plataformas"],
     top: "top5",
+    lanzamiento: 1996,
     puntuacion: 4.5,
     fecha: "2026-08-01"
   },
@@ -482,6 +533,7 @@ const entries = [
     plataformas: ["snes"],
     generos: ["Plataformas"],
     top: "top5",
+    lanzamiento: 1990,
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -491,6 +543,7 @@ const entries = [
     imagen: "assets/img/tony-hawk-s-pro-skater-1-2-68.jpg",
     plataformas: ["pc"],
     generos: ["Deportes"],
+    lanzamiento: 2020,
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -500,6 +553,7 @@ const entries = [
     imagen: "assets/img/sonic-heroes-69.jpg",
     plataformas: ["gamecube","ps2"],
     generos: ["Acción","Aventura","Plataformas"],
+    lanzamiento: 2003,
     puntuacion: 3,
     fecha: "2026-08-01"
   },
@@ -509,6 +563,7 @@ const entries = [
     imagen: "assets/img/pokemon-stadium-70.jpg",
     plataformas: ["n64"],
     generos: ["RPG","Estrategia"],
+    lanzamiento: 1999,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -518,6 +573,7 @@ const entries = [
     imagen: "assets/img/call-of-duty-black-ops-71.jpg",
     plataformas: ["wii","xbox360","pc"],
     generos: ["Acción","Shooter","Multijugador","Online"],
+    lanzamiento: 2010,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -527,6 +583,7 @@ const entries = [
     imagen: "assets/img/call-of-duty-black-ops-ii-72.jpg",
     plataformas: ["xbox360","pc"],
     generos: ["Acción","Shooter","Multijugador","Online"],
+    lanzamiento: 2012,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -536,6 +593,7 @@ const entries = [
     imagen: "assets/img/punch-out-73.jpg",
     plataformas: ["wii"],
     generos: ["Acción","Peleas"],
+    lanzamiento: 2009,
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -546,6 +604,7 @@ const entries = [
     plataformas: ["wii"],
     generos: ["Peleas","Multijugador","Online"],
     top: "top15",
+    lanzamiento: 2008,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -555,6 +614,7 @@ const entries = [
     imagen: "assets/img/super-smash-bros-melee-75.jpg",
     plataformas: ["gamecube"],
     generos: ["Peleas","Multijugador"],
+    lanzamiento: 2001,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -564,6 +624,7 @@ const entries = [
     imagen: "assets/img/dmc-devil-may-cry-76.jpg",
     plataformas: ["xbox360","pc"],
     generos: ["Acción"],
+    lanzamiento: 2013,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -573,6 +634,7 @@ const entries = [
     imagen: "assets/img/super-smash-bros-77.jpg",
     plataformas: ["n64"],
     generos: ["Peleas","Multijugador"],
+    lanzamiento: 1999,
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -583,6 +645,7 @@ const entries = [
     plataformas: ["nds","pc"],
     generos: ["Estrategia"],
     top: "top10",
+    lanzamiento: 2009,
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -592,6 +655,7 @@ const entries = [
     imagen: "assets/img/dragon-ball-sparking-zero-79.jpg",
     plataformas: ["pc"],
     generos: ["Peleas","Multijugador","Online"],
+    lanzamiento: 2024,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -601,6 +665,7 @@ const entries = [
     imagen: "assets/img/the-legend-of-zelda-tears-of-the-kingdom-80.jpg",
     plataformas: ["switch","switch2"],
     generos: ["Acción","Aventura"],
+    lanzamiento: 2023,
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -610,6 +675,7 @@ const entries = [
     imagen: "assets/img/cuphead-81.jpg",
     plataformas: ["switch","pc"],
     generos: ["Plataformas","Shooter"],
+    lanzamiento: 2017,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -620,6 +686,7 @@ const entries = [
     plataformas: ["switch","xbox360"],
     generos: ["Puzzle"],
     top: "top20",
+    lanzamiento: 2011,
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -629,6 +696,7 @@ const entries = [
     imagen: "assets/img/new-super-mario-bros-wii-83.jpg",
     plataformas: ["wii"],
     generos: ["Aventura","Plataformas","Multijugador"],
+    lanzamiento: 2009,
     puntuacion: 4.5,
     fecha: "2026-08-01"
   },
@@ -638,6 +706,7 @@ const entries = [
     imagen: "assets/img/top-spin-2k25-84.jpg",
     plataformas: ["pc"],
     generos: ["Deportes"],
+    lanzamiento: 2024,
     puntuacion: 3,
     fecha: "2026-08-01"
   },
@@ -647,6 +716,7 @@ const entries = [
     imagen: "assets/img/ultimate-marvel-vs-capcom-3-85.jpg",
     plataformas: ["xbox360"],
     generos: ["Peleas","Arcade"],
+    lanzamiento: 2011,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -656,6 +726,7 @@ const entries = [
     imagen: "assets/img/super-mario-party-86.jpg",
     plataformas: ["switch"],
     generos: ["Party","Multijugador"],
+    lanzamiento: 2018,
     puntuacion: 2.5,
     fecha: "2026-08-01"
   },
@@ -665,6 +736,7 @@ const entries = [
     imagen: "assets/img/super-smash-bros-ultimate-87.jpg",
     plataformas: ["switch"],
     generos: ["Peleas","Multijugador","Online"],
+    lanzamiento: 2018,
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -674,6 +746,7 @@ const entries = [
     imagen: "assets/img/the-legend-of-zelda-link-s-awakening-88.jpg",
     plataformas: ["switch"],
     generos: ["Aventura"],
+    lanzamiento: 2019,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -683,6 +756,7 @@ const entries = [
     imagen: "assets/img/scott-pilgrim-vs-the-world-the-game-89.jpg",
     plataformas: ["switch","xbox360"],
     generos: ["Acción","Arcade"],
+    lanzamiento: 2010,
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -692,6 +766,7 @@ const entries = [
     imagen: "assets/img/mario-party-superstars-90.jpg",
     plataformas: ["switch"],
     generos: ["Acción","Party","Multijugador"],
+    lanzamiento: 2021,
     puntuacion: 4.5,
     fecha: "2026-08-01"
   },
@@ -701,6 +776,7 @@ const entries = [
     imagen: "assets/img/mario-kart-wii-91.jpg",
     plataformas: ["wii"],
     generos: ["Carreras","Multijugador","Online"],
+    lanzamiento: 2008,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -710,6 +786,7 @@ const entries = [
     imagen: "assets/img/assasins-creed-ii-92.jpg",
     plataformas: ["xbox360"],
     generos: ["Acción","Aventura"],
+    lanzamiento: 2009,
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -719,6 +796,7 @@ const entries = [
     imagen: "assets/img/grand-theft-auto-v-93.jpg",
     plataformas: ["xbox360","pc"],
     generos: ["Acción","Multijugador","Online"],
+    lanzamiento: 2013,
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -728,6 +806,7 @@ const entries = [
     imagen: "assets/img/super-smash-bross-for-wii-u-94.jpg",
     plataformas: ["wiiu"],
     generos: ["Peleas","Multijugador","Online"],
+    lanzamiento: 2014,
     puntuacion: 4.5,
     fecha: "2026-08-01"
   },
@@ -737,6 +816,7 @@ const entries = [
     imagen: "assets/img/mario-tennis-ultra-smash-95.jpg",
     plataformas: ["wiiu"],
     generos: ["Deportes","Multijugador"],
+    lanzamiento: 2015,
     puntuacion: 1.5,
     fecha: "2026-08-01"
   },
@@ -746,6 +826,7 @@ const entries = [
     imagen: "assets/img/mario-kart-ds-96.jpg",
     plataformas: ["nds"],
     generos: ["Carreras"],
+    lanzamiento: 2005,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -755,6 +836,7 @@ const entries = [
     imagen: "assets/img/sonic-frontiers-97.jpg",
     plataformas: ["switch","pc"],
     generos: ["Acción","Aventura","Plataformas"],
+    lanzamiento: 2022,
     puntuacion: 2.5,
     fecha: "2026-08-01"
   },
@@ -764,6 +846,7 @@ const entries = [
     imagen: "assets/img/sonic-generations-98.jpg",
     plataformas: ["xbox360"],
     generos: ["Acción","Aventura","Plataformas"],
+    lanzamiento: 2011,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -772,6 +855,7 @@ const entries = [
     titulo: "Sonic Forces",
     imagen: "assets/img/sonic-forces-99.jpg",
     generos: ["Acción","Aventura","Plataformas"],
+    lanzamiento: 2017,
     puntuacion: 1.5,
     fecha: "2026-08-01"
   },
@@ -782,6 +866,7 @@ const entries = [
     plataformas: ["pc"],
     generos: ["Acción"],
     top: "top20",
+    lanzamiento: 2000,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -791,6 +876,7 @@ const entries = [
     imagen: "assets/img/spider-man-2-101.jpg",
     plataformas: ["gamecube"],
     generos: ["Acción"],
+    lanzamiento: 2004,
     puntuacion: 4.5,
     fecha: "2026-08-01"
   },
@@ -800,6 +886,7 @@ const entries = [
     imagen: "assets/img/grand-theft-auto-san-andreas-102.jpg",
     plataformas: ["ps2"],
     generos: ["Acción"],
+    lanzamiento: 2004,
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -809,6 +896,7 @@ const entries = [
     imagen: "assets/img/mario-party-10-103.jpg",
     plataformas: ["wiiu"],
     generos: ["Party","Multijugador"],
+    lanzamiento: 2015,
     puntuacion: 1,
     fecha: "2026-08-01"
   },
@@ -818,6 +906,7 @@ const entries = [
     imagen: "assets/img/naruto-shippuden-ultimate-ninja-storm-generations-104.jpg",
     plataformas: ["xbox360"],
     generos: ["Peleas","Multijugador"],
+    lanzamiento: 2012,
     puntuacion: 3,
     fecha: "2026-08-01"
   },
@@ -827,6 +916,7 @@ const entries = [
     imagen: "assets/img/naruto-shippuden-ultimate-ninja-storm-2-105.jpg",
     plataformas: ["switch","xbox360"],
     generos: ["Peleas","Multijugador"],
+    lanzamiento: 2010,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -836,6 +926,7 @@ const entries = [
     imagen: "assets/img/naruto-shippuden-ultimate-ninja-storm-4-106.jpg",
     plataformas: ["switch"],
     generos: ["Peleas","Multijugador"],
+    lanzamiento: 2016,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -845,6 +936,7 @@ const entries = [
     imagen: "assets/img/naruto-ultimate-ninja-storm-107.jpg",
     plataformas: ["switch","ps3"],
     generos: ["Aventura","Peleas","Multijugador"],
+    lanzamiento: 2008,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -854,6 +946,7 @@ const entries = [
     imagen: "assets/img/mario-kart-double-dash-108.jpg",
     plataformas: ["gamecube"],
     generos: ["Carreras","Multijugador"],
+    lanzamiento: 2003,
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -863,6 +956,7 @@ const entries = [
     imagen: "assets/img/dragon-ball-z-budokai-tenkaichi-3-109.jpg",
     plataformas: ["wii","ps2"],
     generos: ["Peleas","Multijugador"],
+    lanzamiento: 2007,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -872,6 +966,7 @@ const entries = [
     imagen: "assets/img/fable-iii-110.jpg",
     plataformas: ["xbox360"],
     generos: ["Aventura","RPG"],
+    lanzamiento: 2010,
     puntuacion: 2.5,
     fecha: "2026-08-01"
   },
@@ -881,6 +976,7 @@ const entries = [
     imagen: "assets/img/guitar-hero-iii-legends-of-rock-111.jpg",
     plataformas: ["wii","xbox360"],
     generos: ["Musical"],
+    lanzamiento: 2007,
     puntuacion: 4.5,
     fecha: "2026-08-01"
   },
@@ -890,6 +986,7 @@ const entries = [
     imagen: "assets/img/mario-super-sluggers-112.jpg",
     plataformas: ["wii"],
     generos: ["Deportes","Multijugador"],
+    lanzamiento: 2008,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -900,6 +997,7 @@ const entries = [
     plataformas: ["gamecube"],
     generos: ["Party","Multijugador"],
     top: "top15",
+    lanzamiento: 2003,
     puntuacion: 4.5,
     fecha: "2026-08-01"
   },
@@ -909,6 +1007,7 @@ const entries = [
     imagen: "assets/img/mario-party-7-114.jpg",
     plataformas: ["gamecube"],
     generos: ["Party","Multijugador"],
+    lanzamiento: 2005,
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -918,6 +1017,7 @@ const entries = [
     imagen: "assets/img/super-martio-strikers-115.jpg",
     plataformas: ["gamecube"],
     generos: ["Deportes","Multijugador"],
+    lanzamiento: 2005,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -927,6 +1027,7 @@ const entries = [
     imagen: "assets/img/mario-strikers-charged-116.jpg",
     plataformas: ["wii"],
     generos: ["Deportes","Multijugador"],
+    lanzamiento: 2007,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -936,6 +1037,7 @@ const entries = [
     imagen: "assets/img/mario-party-3-117.jpg",
     plataformas: ["n64"],
     generos: ["Party","Multijugador"],
+    lanzamiento: 2000,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -945,6 +1047,7 @@ const entries = [
     imagen: "assets/img/mario-party-2-118.jpg",
     plataformas: ["n64"],
     generos: ["Party","Multijugador"],
+    lanzamiento: 1999,
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -954,6 +1057,7 @@ const entries = [
     imagen: "assets/img/halo-reach-119.jpg",
     plataformas: ["xbox360"],
     generos: ["Acción","Shooter"],
+    lanzamiento: 2010,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -963,6 +1067,7 @@ const entries = [
     imagen: "assets/img/diddy-kong-racing-120.jpg",
     plataformas: ["n64"],
     generos: ["Carreras"],
+    lanzamiento: 1997,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -972,6 +1077,7 @@ const entries = [
     imagen: "assets/img/mario-kart-64-121.jpg",
     plataformas: ["n64"],
     generos: ["Carreras","Multijugador"],
+    lanzamiento: 1996,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -981,6 +1087,7 @@ const entries = [
     imagen: "assets/img/yoshi-s-story-122.jpg",
     plataformas: ["n64"],
     generos: ["Plataformas"],
+    lanzamiento: 1997,
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -990,6 +1097,7 @@ const entries = [
     imagen: "assets/img/donkey-kong-country-returns-123.jpg",
     plataformas: ["wii","switch"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 2010,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -1000,6 +1108,7 @@ const entries = [
     plataformas: ["xbox360"],
     generos: ["Acción"],
     top: "top20",
+    lanzamiento: 2011,
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -1009,6 +1118,7 @@ const entries = [
     imagen: "assets/img/batman-arkham-asylum-125.jpg",
     plataformas: ["xbox360"],
     generos: ["Acción"],
+    lanzamiento: 2009,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -1018,6 +1128,7 @@ const entries = [
     imagen: "assets/img/batman-arkham-origins-126.jpg",
     plataformas: ["xbox360"],
     generos: ["Acción"],
+    lanzamiento: 2013,
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -1027,6 +1138,7 @@ const entries = [
     imagen: "assets/img/sonic-adventure-dx-127.jpg",
     plataformas: ["gamecube","pc"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 2003,
     puntuacion: 2.5,
     fecha: "2026-08-01"
   },
@@ -1037,6 +1149,7 @@ const entries = [
     plataformas: ["switch","pc","arcade"],
     generos: ["Acción","Plataformas","Shooter","Arcade"],
     top: "top15",
+    lanzamiento: 1999,
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -1046,6 +1159,7 @@ const entries = [
     imagen: "assets/img/ssx-tricky-129.jpg",
     plataformas: ["ps2"],
     generos: ["Deportes"],
+    lanzamiento: 2001,
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -1055,6 +1169,7 @@ const entries = [
     imagen: "assets/img/super-paper-mario-130.jpg",
     plataformas: ["wii"],
     generos: ["Aventura","RPG","Plataformas"],
+    lanzamiento: 2007,
     puntuacion: 4.5,
     fecha: "2026-08-01"
   },
@@ -1064,6 +1179,7 @@ const entries = [
     imagen: "assets/img/the-legend-of-zelda-ocarina-of-time-131.jpg",
     plataformas: ["n64"],
     generos: ["Acción","Aventura"],
+    lanzamiento: 1998,
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -1073,6 +1189,7 @@ const entries = [
     imagen: "assets/img/the-legend-of-zelda-majora-s-mask-132.jpg",
     plataformas: ["n64"],
     generos: ["Acción","Aventura"],
+    lanzamiento: 2000,
     puntuacion: 4.5,
     fecha: "2026-08-01"
   },
@@ -1082,6 +1199,7 @@ const entries = [
     imagen: "assets/img/tatsunoko-vs-capcom-ultimate-all-stars-133.jpg",
     plataformas: ["wii"],
     generos: ["Peleas","Arcade"],
+    lanzamiento: 2010,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -1091,6 +1209,7 @@ const entries = [
     imagen: "assets/img/call-of-duty-modern-warfare-3-134.jpg",
     plataformas: ["xbox360"],
     generos: ["Acción","Shooter","Multijugador","Online"],
+    lanzamiento: 2011,
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -1100,6 +1219,7 @@ const entries = [
     imagen: "assets/img/marvel-vs-capcom-2-new-age-of-heroes-135.jpg",
     plataformas: ["arcade"],
     generos: ["Peleas","Arcade"],
+    lanzamiento: 2000,
     puntuacion: 4.5,
     fecha: "2026-08-01"
   },
@@ -1109,6 +1229,7 @@ const entries = [
     imagen: "assets/img/pokemon-emerald-136.jpg",
     plataformas: ["gba"],
     generos: ["Aventura","RPG","Estrategia"],
+    lanzamiento: 2004,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -1118,6 +1239,7 @@ const entries = [
     imagen: "assets/img/pokemon-omega-ruby-137.jpg",
     plataformas: ["n3ds"],
     generos: ["Aventura","RPG","Online","Estrategia"],
+    lanzamiento: 2014,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -1127,6 +1249,7 @@ const entries = [
     imagen: "assets/img/super-smash-bross-for-3ds-138.jpg",
     plataformas: ["n3ds"],
     generos: ["Peleas","Multijugador","Online"],
+    lanzamiento: 2014,
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -1136,6 +1259,7 @@ const entries = [
     imagen: "assets/img/mario-power-tennis-139.jpg",
     plataformas: ["gamecube","wii"],
     generos: ["Deportes","Multijugador"],
+    lanzamiento: 2004,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -1145,6 +1269,7 @@ const entries = [
     imagen: "assets/img/the-simpsons-road-rage-140.jpg",
     plataformas: ["gba","ps2"],
     generos: ["Acción","Carreras"],
+    lanzamiento: 2001,
     puntuacion: 3.5,
     fecha: "2026-08-01"
   },
@@ -1154,6 +1279,7 @@ const entries = [
     imagen: "assets/img/the-simpsons-141.jpg",
     plataformas: ["arcade"],
     generos: ["Arcade"],
+    lanzamiento: 1991,
     puntuacion: 5,
     fecha: "2026-08-01"
   },
@@ -1163,6 +1289,7 @@ const entries = [
     imagen: "assets/img/waku-waku-7-142.jpg",
     plataformas: ["arcade"],
     generos: ["Peleas","Arcade"],
+    lanzamiento: 1996,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -1172,6 +1299,7 @@ const entries = [
     imagen: "assets/img/the-king-of-fighters-2001-143.jpg",
     plataformas: ["arcade"],
     generos: ["Peleas","Arcade"],
+    lanzamiento: 2001,
     puntuacion: 4,
     fecha: "2026-08-01"
   },
@@ -1181,6 +1309,7 @@ const entries = [
     imagen: "assets/img/star-fox-zero-144.jpg",
     plataformas: ["wiiu"],
     generos: ["Acción","Arcade"],
+    lanzamiento: 2016,
     puntuacion: 3.5,
     fecha: "2026-08-06"
   },
@@ -1190,6 +1319,7 @@ const entries = [
     imagen: "assets/img/super-mario-maker-145.jpg",
     plataformas: ["wiiu"],
     generos: ["Plataformas"],
+    lanzamiento: 2015,
     puntuacion: 3.5,
     fecha: "2026-08-07"
   },
@@ -1199,6 +1329,7 @@ const entries = [
     imagen: "assets/img/the-legend-of-zelda-the-wind-waker-146.jpg",
     plataformas: ["gamecube","wiiu"],
     generos: ["Acción","Aventura"],
+    lanzamiento: 2002,
     puntuacion: 5,
     fecha: "2026-08-07"
   },
@@ -1208,6 +1339,7 @@ const entries = [
     imagen: "assets/img/pokken-tournament-dx-147.jpg",
     plataformas: ["wiiu","switch"],
     generos: ["Peleas","Arcade"],
+    lanzamiento: 2016,
     puntuacion: 3.5,
     fecha: "2026-08-07"
   },
@@ -1217,6 +1349,7 @@ const entries = [
     imagen: "assets/img/grand-theft-auto-iii-148.jpg",
     plataformas: ["ps2"],
     generos: ["Acción"],
+    lanzamiento: 2001,
     puntuacion: 3.5,
     fecha: "2026-08-07"
   },
@@ -1226,6 +1359,7 @@ const entries = [
     imagen: "assets/img/naruto-ultimate-ninja-149.jpg",
     plataformas: ["ps2"],
     generos: ["Peleas","Multijugador"],
+    lanzamiento: 2003,
     puntuacion: 3.5,
     fecha: "2026-08-08"
   },
@@ -1235,6 +1369,7 @@ const entries = [
     imagen: "assets/img/clone-hero-150.jpg",
     plataformas: ["pc"],
     generos: ["Musical"],
+    lanzamiento: 2017,
     puntuacion: 4.5,
     fecha: "2026-08-08"
   },
@@ -1244,6 +1379,7 @@ const entries = [
     imagen: "assets/img/valorant-151.jpg",
     plataformas: ["pc"],
     generos: ["Shooter","Multijugador","Online"],
+    lanzamiento: 2020,
     puntuacion: 3.5,
     fecha: "2026-08-08"
   },
@@ -1253,6 +1389,7 @@ const entries = [
     imagen: "assets/img/guitar-hero-worl-tour-152.jpg",
     plataformas: ["wii"],
     generos: ["Musical"],
+    lanzamiento: 2008,
     puntuacion: 3.5,
     fecha: "2026-08-08"
   },
@@ -1262,6 +1399,7 @@ const entries = [
     imagen: "assets/img/pokemon-ultra-sun-153.jpg",
     plataformas: ["n3ds"],
     generos: ["RPG","Estrategia","Multijugador","Online"],
+    lanzamiento: 2017,
     puntuacion: 4,
     fecha: "2026-08-08"
   },
@@ -1271,6 +1409,7 @@ const entries = [
     imagen: "assets/img/the-simpsons-hit-run-154.jpg",
     plataformas: ["gamecube","ps2"],
     generos: ["Acción","Aventura"],
+    lanzamiento: 2003,
     puntuacion: 4.5,
     fecha: "2026-08-09"
   },
@@ -1280,6 +1419,7 @@ const entries = [
     imagen: "assets/img/metroid-other-m-155.jpg",
     plataformas: ["wii"],
     generos: ["Acción","Aventura"],
+    lanzamiento: 2010,
     puntuacion: 3.5,
     fecha: "2026-08-09"
   },
@@ -1289,6 +1429,7 @@ const entries = [
     imagen: "assets/img/neo-bomberman-156.jpg",
     plataformas: ["arcade"],
     generos: ["Arcade"],
+    lanzamiento: 1997,
     puntuacion: 4,
     fecha: "2026-08-09"
   },
@@ -1298,6 +1439,7 @@ const entries = [
     imagen: "assets/img/pokemon-colosseum-157.jpg",
     plataformas: ["gamecube"],
     generos: ["Aventura","RPG","Estrategia"],
+    lanzamiento: 2003,
     puntuacion: 3,
     fecha: "2026-08-09"
   },
@@ -1307,6 +1449,7 @@ const entries = [
     imagen: "assets/img/kirby-64-the-crystal-shards-158.jpg",
     plataformas: ["n64"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 2000,
     puntuacion: 4,
     fecha: "2026-08-09"
   },
@@ -1316,6 +1459,7 @@ const entries = [
     imagen: "assets/img/splatoon-159.jpg",
     plataformas: ["switch"],
     generos: ["Acción","Shooter","Multijugador","Online"],
+    lanzamiento: 2015,
     puntuacion: 3.5,
     fecha: "2026-08-09"
   },
@@ -1325,6 +1469,7 @@ const entries = [
     imagen: "assets/img/new-super-mario-bros-u-deluxe-160.jpg",
     plataformas: ["wiiu","switch"],
     generos: ["Aventura","Plataformas","Multijugador"],
+    lanzamiento: 2012,
     puntuacion: 4,
     fecha: "2026-08-09"
   },
@@ -1334,6 +1479,7 @@ const entries = [
     imagen: "assets/img/wario-world-161.jpg",
     plataformas: ["gamecube"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 2003,
     puntuacion: 2.5,
     fecha: "2026-08-09"
   },
@@ -1343,6 +1489,7 @@ const entries = [
     imagen: "assets/img/wario-land-shake-it-162.jpg",
     plataformas: ["wii"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 2008,
     puntuacion: 3.5,
     fecha: "2026-08-09"
   },
@@ -1352,6 +1499,7 @@ const entries = [
     imagen: "assets/img/super-mario-3d-world-163.jpg",
     plataformas: ["wiiu","switch"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 2013,
     puntuacion: 4,
     fecha: "2026-08-09"
   },
@@ -1361,6 +1509,7 @@ const entries = [
     imagen: "assets/img/star-wars-rogue-squadron-ii-rogue-leader-164.jpg",
     plataformas: ["gamecube"],
     generos: ["Acción","Arcade"],
+    lanzamiento: 2001,
     puntuacion: 4,
     fecha: "2026-08-09"
   },
@@ -1370,6 +1519,7 @@ const entries = [
     imagen: "assets/img/donkey-kong-country-165.jpg",
     plataformas: ["snes"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 1994,
     puntuacion: 4,
     fecha: "2026-08-09"
   },
@@ -1379,6 +1529,7 @@ const entries = [
     imagen: "assets/img/donkey-kong-country-tropical-freeze-166.jpg",
     plataformas: ["wiiu","switch"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 2014,
     puntuacion: 4,
     fecha: "2026-08-09"
   },
@@ -1388,6 +1539,7 @@ const entries = [
     imagen: "assets/img/donkey-kong-64-167.jpg",
     plataformas: ["n64"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 1999,
     puntuacion: 4,
     fecha: "2026-08-09"
   },
@@ -1397,6 +1549,7 @@ const entries = [
     imagen: "assets/img/banjo-kazooie-168.jpg",
     plataformas: ["n64"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 1998,
     puntuacion: 4.5,
     fecha: "2026-08-09"
   },
@@ -1406,6 +1559,7 @@ const entries = [
     imagen: "assets/img/conker-s-bad-fur-day-169.jpg",
     plataformas: ["n64"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 2001,
     puntuacion: 4,
     fecha: "2026-08-09"
   },
@@ -1415,6 +1569,7 @@ const entries = [
     imagen: "assets/img/mario-tennis-170.jpg",
     plataformas: ["n64"],
     generos: ["Deportes","Multijugador"],
+    lanzamiento: 2000,
     puntuacion: 4,
     fecha: "2026-08-10"
   },
@@ -1424,6 +1579,7 @@ const entries = [
     imagen: "assets/img/mario-golf-171.jpg",
     plataformas: ["n64"],
     generos: ["Deportes","Multijugador"],
+    lanzamiento: 1999,
     puntuacion: 4,
     fecha: "2026-08-10"
   },
@@ -1433,6 +1589,7 @@ const entries = [
     imagen: "assets/img/chamaleon-twist-172.jpg",
     plataformas: ["n64"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 1997,
     puntuacion: 3.5,
     fecha: "2026-08-10"
   },
@@ -1442,6 +1599,7 @@ const entries = [
     imagen: "assets/img/star-fox-64-173.jpg",
     plataformas: ["n64"],
     generos: ["Acción","Arcade"],
+    lanzamiento: 1997,
     puntuacion: 4,
     fecha: "2026-08-10"
   },
@@ -1451,6 +1609,7 @@ const entries = [
     imagen: "assets/img/burnout-revenge-174.jpg",
     plataformas: ["ps2"],
     generos: ["Acción","Carreras"],
+    lanzamiento: 2005,
     puntuacion: 4,
     fecha: "2026-08-10"
   },
@@ -1460,6 +1619,7 @@ const entries = [
     imagen: "assets/img/crash-nitro-kart-175.jpg",
     plataformas: ["ps2"],
     generos: ["Carreras","Multijugador"],
+    lanzamiento: 2003,
     puntuacion: 3,
     fecha: "2026-08-10"
   },
@@ -1469,6 +1629,7 @@ const entries = [
     imagen: "assets/img/grand-theft-auto-vice-city-176.jpg",
     plataformas: ["ps2"],
     generos: ["Acción"],
+    lanzamiento: 2002,
     puntuacion: 4,
     fecha: "2026-08-10"
   },
@@ -1478,6 +1639,7 @@ const entries = [
     imagen: "assets/img/kirby-s-epic-yarn-177.jpg",
     plataformas: ["wii"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 2010,
     puntuacion: 4,
     fecha: "2026-08-10"
   },
@@ -1487,6 +1649,7 @@ const entries = [
     imagen: "assets/img/mario-golf-toadstool-tour-178.jpg",
     plataformas: ["gamecube"],
     generos: ["Deportes","Multijugador"],
+    lanzamiento: 2003,
     puntuacion: 4,
     fecha: "2026-08-10"
   },
@@ -1496,6 +1659,7 @@ const entries = [
     imagen: "assets/img/epic-mickey-179.jpg",
     plataformas: ["wii"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 2010,
     puntuacion: 3.5,
     fecha: "2026-08-10"
   },
@@ -1505,6 +1669,7 @@ const entries = [
     imagen: "assets/img/super-mario-world-2-yoshi-s-island-180.jpg",
     plataformas: ["snes"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 1995,
     puntuacion: 4,
     fecha: "2026-08-10"
   },
@@ -1514,6 +1679,7 @@ const entries = [
     imagen: "assets/img/yoshi-s-island-ds-181.jpg",
     plataformas: ["nds"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 2006,
     puntuacion: 4,
     fecha: "2026-08-10"
   },
@@ -1523,6 +1689,7 @@ const entries = [
     imagen: "assets/img/kirby-s-adventure-182.jpg",
     plataformas: ["nes"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 1993,
     puntuacion: 4,
     fecha: "2026-08-10"
   },
@@ -1532,6 +1699,7 @@ const entries = [
     imagen: "assets/img/kirby-s-dream-land-3-183.jpg",
     plataformas: ["snes"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 1997,
     puntuacion: 3.5,
     fecha: "2026-08-10"
   },
@@ -1541,6 +1709,7 @@ const entries = [
     imagen: "assets/img/kirby-super-star-184.jpg",
     plataformas: ["snes"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 1996,
     puntuacion: 4,
     fecha: "2026-08-10"
   },
@@ -1550,6 +1719,7 @@ const entries = [
     imagen: "assets/img/kirby-air-ride-185.jpg",
     plataformas: ["gamecube"],
     generos: ["Acción","Carreras","Multijugador"],
+    lanzamiento: 2003,
     puntuacion: 3,
     fecha: "2026-08-10"
   },
@@ -1559,6 +1729,7 @@ const entries = [
     imagen: "assets/img/donkey-kong-country-2-diddy-s-kong-quest-186.jpg",
     plataformas: ["snes"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 1995,
     puntuacion: 4,
     fecha: "2026-08-10"
   },
@@ -1568,6 +1739,7 @@ const entries = [
     imagen: "assets/img/portal-187.jpg",
     plataformas: ["switch","xbox360"],
     generos: ["Puzzle"],
+    lanzamiento: 2007,
     puntuacion: 4,
     fecha: "2026-08-10"
   },
@@ -1577,6 +1749,7 @@ const entries = [
     imagen: "assets/img/super-mario-bros-188.jpg",
     plataformas: ["nes"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 1985,
     puntuacion: 4,
     fecha: "2026-08-10"
   },
@@ -1586,6 +1759,7 @@ const entries = [
     imagen: "assets/img/super-mario-bros-2-189.jpg",
     plataformas: ["nes"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 1988,
     puntuacion: 3,
     fecha: "2026-08-10"
   },
@@ -1595,6 +1769,7 @@ const entries = [
     imagen: "assets/img/super-mario-bros-3-190.jpg",
     plataformas: ["nes"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 1988,
     puntuacion: 4.5,
     fecha: "2026-08-10"
   },
@@ -1604,6 +1779,7 @@ const entries = [
     imagen: "assets/img/new-super-mario-bros-191.jpg",
     plataformas: ["nds"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 2006,
     puntuacion: 4,
     fecha: "2026-08-10"
   },
@@ -1613,6 +1789,7 @@ const entries = [
     imagen: "assets/img/super-mario-64-ds-192.jpg",
     plataformas: ["nds"],
     generos: ["Aventura","Plataformas"],
+    lanzamiento: 2004,
     puntuacion: 4,
     fecha: "2026-08-10"
   },
@@ -1622,6 +1799,7 @@ const entries = [
     imagen: "assets/img/the-lord-of-the-rings-the-two-towers-193.jpg",
     plataformas: ["gamecube"],
     generos: ["Acción"],
+    lanzamiento: 2002,
     puntuacion: 4,
     fecha: "2026-08-11"
   },
@@ -1631,6 +1809,7 @@ const entries = [
     imagen: "assets/img/grand-theft-auto-iv-194.jpg",
     plataformas: ["xbox360"],
     generos: ["Acción"],
+    lanzamiento: 2008,
     puntuacion: 4,
     fecha: "2026-08-11"
   }
