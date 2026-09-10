@@ -76,9 +76,14 @@ function cardMarkup(entry) {
   `;
 }
 
+function decadeOf(year) {
+  return Math.floor(year / 10) * 10;
+}
+
+// Opciones por década: 1980 -> "80s", 2000 -> "00s"
 function populateYears() {
-  const years = [...new Set(entries.map(e => e.lanzamiento).filter(Boolean))].sort((a, b) => b - a);
-  yearSelect.innerHTML = `<option value="todos">Todos</option>` + years.map(y => `<option value="${y}">${y}</option>`).join("");
+  const decades = [...new Set(entries.map(e => e.lanzamiento).filter(Boolean).map(decadeOf))].sort((a, b) => a - b);
+  yearSelect.innerHTML = `<option value="todos">Todos</option>` + decades.map(d => `<option value="${d}">${String(d).slice(2)}s</option>`).join("");
 }
 
 // Devuelve los números de página a mostrar, con "..." donde se omiten.
@@ -138,7 +143,7 @@ function matchesFilter(entry, filter, consoleKey) {
 function render() {
   const filtered = entries.filter(e => {
     const matchFilter = matchesFilter(e, activeFilter, activeConsole);
-    const matchYear = activeYear === "todos" || String(e.lanzamiento) === activeYear;
+    const matchYear = activeYear === "todos" || (!!e.lanzamiento && decadeOf(e.lanzamiento) === Number(activeYear));
     const matchSearch = !activeSearch || foldAccents(e.titulo.toLowerCase()).includes(activeSearch);
     return matchFilter && matchYear && matchSearch;
   });
