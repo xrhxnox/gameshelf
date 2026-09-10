@@ -16,6 +16,7 @@ const puntuacionInput = document.getElementById("puntuacion");
 const ratingPreview = document.getElementById("ratingPreview");
 const topSelect = document.getElementById("top");
 const fechaInput = document.getElementById("fecha");
+const lanzamientoInput = document.getElementById("lanzamiento");
 const successBanner = document.getElementById("successBanner");
 const successMessage = document.getElementById("successMessage");
 const addAnotherBtn = document.getElementById("addAnotherBtn");
@@ -195,6 +196,7 @@ function serializeEntries(entriesArray) {
 // generos: lista de géneros (ver GAME_GENRES en js/utils.js)
 // puntuacion: número del 0 al 5 (acepta medios puntos, ej. 3.5)
 // top: "top5" | "top10" | "top15" | "top20" | ausente si no aplica
+// lanzamiento: año en que salió el juego (AAAA)
 // imagen: ruta a la carátula (guárdala en assets/img/)
 // fecha: cuándo se publicó la entrada, formato AAAA-MM-DD
 // ============================================================
@@ -206,7 +208,8 @@ function serializeEntries(entriesArray) {
     imagen: ${JSON.stringify(e.imagen)},${e.plataformas && e.plataformas.length ? `
     plataformas: ${JSON.stringify(e.plataformas)},` : ""}${e.generos && e.generos.length ? `
     generos: ${JSON.stringify(e.generos)},` : ""}${e.top ? `
-    top: ${JSON.stringify(e.top)},` : ""}
+    top: ${JSON.stringify(e.top)},` : ""}${e.lanzamiento ? `
+    lanzamiento: ${e.lanzamiento},` : ""}
     puntuacion: ${e.puntuacion},
     fecha: ${JSON.stringify(e.fecha)}
   }`).join(",\n");
@@ -499,6 +502,7 @@ function enterEditMode(entry) {
   puntuacionInput.value = entry.puntuacion;
   updateRatingPreview();
   topSelect.value = entry.top || "";
+  lanzamientoInput.value = entry.lanzamiento || "";
   fechaInput.value = entry.fecha;
 
   imagenInput.value = "";
@@ -607,7 +611,8 @@ form.addEventListener("submit", async (event) => {
     }
 
     const top = topSelect.value || undefined;
-    const entryData = { id: entryId, titulo, imagen: imagePath, plataformas, generos, top, puntuacion, fecha };
+    const lanzamiento = parseInt(lanzamientoInput.value, 10) || undefined;
+    const entryData = { id: entryId, titulo, imagen: imagePath, plataformas, generos, top, lanzamiento, puntuacion, fecha };
     const updatedEntries = isEditing
       ? currentEntries.map(e => e.id === editingId ? entryData : e)
       : [...currentEntries, entryData];

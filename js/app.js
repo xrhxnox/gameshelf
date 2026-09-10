@@ -69,6 +69,7 @@ function cardMarkup(entry) {
         ${overlayTopMarkup(entry)}
         <div class="overlay-title">${entry.titulo}</div>
         <div class="stars" aria-label="Puntuación ${entry.puntuacion} de 5">${starsMarkup(entry.puntuacion)}<span class="rating-number">(${entry.puntuacion % 1 === 0 ? entry.puntuacion : entry.puntuacion.toFixed(1)})</span></div>
+        ${entry.lanzamiento ? `<div class="lanzamiento">Lanzamiento: ${entry.lanzamiento}</div>` : ""}
         ${fechaLegible ? `<div class="fecha">Publicado el ${fechaLegible}</div>` : ""}
       </div>
     </article>

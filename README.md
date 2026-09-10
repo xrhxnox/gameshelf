@@ -15,6 +15,7 @@ Catálogo personal de videojuegos que voy terminando, con calificación por estr
   plataformas: ["switch", "pc"], // ver PLATFORM_GROUPS en js/utils.js
   generos: ["RPG", "Aventura"],   // ver GAME_GENRES en js/utils.js
   top: "top5", // "top5" | "top10" | "top15" | "top20" | omitir si no aplica
+  lanzamiento: 2017, // año en que salió el juego
   puntuacion: 4.5, // de 0 a 5, acepta medios puntos
   fecha: "2026-07-17" // fecha de publicación
 }

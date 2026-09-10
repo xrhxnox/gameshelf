@@ -785,6 +785,12 @@ main {
   align-items: flex-start;
 }
 
+.overlay .lanzamiento {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--overlay-text);
+}
+
 .overlay .fecha {
   font-family: var(--font-mono);
   font-size: 0.66rem;
